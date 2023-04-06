@@ -34,9 +34,9 @@ barChartSvg.append("g")
 
 barChartSvg.append("text")
     .attr("text-anchor", "middle")
-    .attr("x", 290)
-    .attr("y", 470)
-    .text("Source: Food and Agriculture Organization of the United Nations • Graphic: Zhaozhou Dai")
+    .attr("x", 335)
+    .attr("y", 480)
+    .text("Source: Food and Agriculture Organization of the United Nations • Graphic by Zhaozhou Dai")
     .style("font-family","'DM Sans', sans-serif")
     .style("fill", "#EEECE7");
 
