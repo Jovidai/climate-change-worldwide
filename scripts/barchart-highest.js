@@ -34,14 +34,6 @@ barChartSvg.append("g")
 
 barChartSvg.append("text")
     .attr("text-anchor", "middle")
-    .attr("x", 335)
-    .attr("y", 480)
-    .text("Source: Food and Agriculture Organization of the United Nations • Graphic by Zhaozhou Dai")
-    .style("font-family","'DM Sans', sans-serif")
-    .style("fill", "#EEECE7");
-
-barChartSvg.append("text")
-    .attr("text-anchor", "middle")
     .attr("x", 500)
     .attr("y", -60)
     .text("Top Ten countries that Have Highest Temperature Change")
@@ -56,6 +48,15 @@ barChartSvg.append("text")
     .text("in the Last Decades")
     .style("font-family","'DM Sans', sans-serif")
     .style("font-size", "25px")
+    .style("fill", "#EEECE7");
+
+barChartSvg.append("text")
+    .attr("text-anchor", "middle")
+    .attr("x", 300)
+    .attr("y", 480)
+    .text("Source: Food and Agriculture Organization of the United Nations • Graphic by Zhaozhou Dai")
+    .style("font-size", "15px")
+    .style("font-family","'DM Sans', sans-serif")
     .style("fill", "#EEECE7");
 
 

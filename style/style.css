@@ -54,6 +54,17 @@ h4 {
     color: #EEECE7;
 }
 
+.chat-title {
+    text-align: center; /*https://developer.mozilla.org/en-US/docs/Web/CSS/text-align */
+    font-weight: bold;
+    color: #EEECE7;
+    font-size: 25px;
+    font-family: 'DM Sans', sans-serif;
+    margin-left: 300px;
+    margin-right: 300px;
+    text-indent: 1px;
+  }
+
 .paragraph {
     text-align: justify; /*https://developer.mozilla.org/en-US/docs/Web/CSS/text-align */
     font-weight: bold;
@@ -219,7 +230,7 @@ margin-left: 200px;
 width: 1050px;
 }
 
-/* For scrollypart  */
+/* For firt-part scrollypart  */
 #scrolly {
   position: relative;
   background-color: #f3f3f3;
@@ -263,14 +274,15 @@ article {
 
 .sticky-thing h3 {
   font-weight: 600;
-  font-style:italic;
+  font-style: italic;
+  text-align: center;
   font-family: 'DM Sans', sans-serif;
-  color: #444;
-  text-shadow: 1px 1px #f3f3f3 ;
+  color: #f3f3f3;
+  /* text-shadow: 4px 3px #black; */
   font-size: 1rem;
   line-height: 30px;
-  padding-top: 90vh;
-  padding-left: 150vh;
+  padding-top: 80vh;
+  padding-left: 90vh;
 }
 
 .step {
@@ -323,6 +335,83 @@ article {
         }
     }
 
+/* For second-part scrolly */
+#scrolly3 {
+  position: relative;
+  padding: 1rem;
+}
+
+.scrolly-overlay3 {
+  position: relative;
+  padding: 0;
+  min-width: 35rem;
+  margin: 0 auto;
+}
+
+.sticky-thing3 {
+  position: -webkit-sticky;
+  position: sticky;
+  left: 0;
+  width: 100%;
+  margin: 0;
+  z-index: 0;
+  top: 0;
+  height: 100vh;
+  /* Center everything inside */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.step3 {
+  margin: 0 auto 2rem auto;
+  margin-bottom: 25rem;
+  background-color: #f3f3f3;
+  opacity: 50%;
+  color: black;
+}
+
+.step3 p {
+  text-align: left;
+  padding: 1rem;
+  font-size: 1rem;
+  margin-left: 30px;
+  background-color: #f3f3f3;
+  font-family: 'DM Sans', sans-serif;
+}
+
+.hidden { visibility: hidden; }
+
+/* When it's less than 700 pixels wide, do normal scrollytelling */
+@media only screen and (min-width: 700px) {
+#scrolly3.side-by-side {
+display: flex;
+}
+
+#scrolly3.side-by-side > div {
+flex-basis: 0;
+flex-grow: 1;
+flex-shrink: 1;
+padding: 0.75em;
+}
+
+#scrolly3.side-by-side .scrolly-overlay3 {
+margin-top: 70vh;
+order: 0;
+/* Change these to adjust sizing options */
+min-width: 15rem;
+max-width: 20rem;
+}
+
+#scrolly3.side-by-side .sticky-thing3 {
+order: 1;
+flex-grow: 2;
+}
+}
+
+
+
 /* external css: flickity.css */
 
 * { box-sizing: border-box; }
@@ -347,4 +436,47 @@ body { font-family: sans-serif; }
 .axis path, 
 .axis line {
   stroke: #EEECE7;
+}
+
+#chart--container {
+  width: 100%;
+}
+
+#chart {
+  width: 80%;
+  float: left;
+  height: 80vh;
+  position: relative;
+}
+
+#legend {
+  width: 20%;
+  float: right;
+  color: #EEECE7;;
+}
+
+.legend--label {
+  font-size: 12pt;
+  dominant-baseline: central;
+}
+
+.axis--label{
+  font-size: 16pt;
+  font-weight: bold;
+  text-anchor: middle;
+}
+
+.axis {
+  font-size: 10pt;
+}
+
+.tooltip {
+  position: absolute;
+  visibility: hidden;
+  top: 0px;
+  left: 0px;
+
+  padding: 2px;
+  background-color: rgba(255,255,255,0.8);
+  font-size: 11pt;
 }
