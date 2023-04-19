@@ -30,15 +30,15 @@ d3.csv("./data/global_sea_level_change.csv", parseCsv).then(function(data) {
     /*
     DEFINE DIMENSIONS OF SVG + CREATE SVG CANVAS
     */
-    const width = document.querySelector("#chart").clientWidth;
-    const height = document.querySelector("#chart").clientHeight;
+    const width = 1000;
+    const height = 800;
     const margin = {top: 100, left: 200, right: 100, bottom: 200};
 
     const svg = d3.select("#chart")
         .append("svg")
         .attr("width", width)
         .attr("height", height)
-        .style("stroke", "#EEECE7");
+        .style("stroke", "black");
 
 
     /*
@@ -163,12 +163,12 @@ d3.csv("./data/global_sea_level_change.csv", parseCsv).then(function(data) {
     const xAxis = svg.append("g")
         .attr("class","axis")
         .attr("transform", `translate(0,${height-margin.bottom})`)
-        .call(d3.axisBottom(xScale).scale(xScale));
+        .call(d3.axisBottom(xScale).tickFormat(d3.format('d'))); // remove the comma between numbers, like year
 
     const yAxis = svg.append("g")
         .attr("class","axis")
         .attr("transform", `translate(${margin.left},0)`)
-        .call(d3.axisLeft().scale(yScale));
+        .call(d3.axisLeft(yScale));
 
 
     /*
@@ -192,20 +192,22 @@ d3.csv("./data/global_sea_level_change.csv", parseCsv).then(function(data) {
     */
     const xAxisLabel = svg.append("text")
         .attr("class","axis--label")
-        .attr("x", width/2)
+        .attr("x", width/1.8)
         .attr("y", height-margin.bottom/1.5)
         .text("Year")
         .style("font-size", "20px")
-        .style("fill", "#EEECE7");
+        .style("font-family","'times new roman',times,serif")
+        .style("fill", "black");
 
     const yAxisLabel = svg.append("text")
         .attr("class","axis--label")
         .attr("transform","rotate(-90)")
-        .attr("x",-height/2)
+        .attr("x",-height/2.5)
         .attr("y",margin.left/1.5)
         .text("Adjusted Sea Level")
+        .style("font-family","'times new roman',times,serif")
         .style("font-size", "20px")
-        .style("fill", "#EEECE7");
+        .style("fill", "black");
 
 
 
@@ -224,34 +226,34 @@ d3.csv("./data/global_sea_level_change.csv", parseCsv).then(function(data) {
     .attr("x", 650)
     .attr("y", 20)
     .text("Global Average Absolute Sea Level Change from 1880 to 2021")
-    .style("font-family","'DM Sans', sans-serif")
+    .style("font-family","'times new roman',times,serif")
     .style("font-size", "25px")
-    .style("fill", "#EEECE7");
-
-    svg.append("text")
-    .attr("text-anchor", "middle")
-    .attr("x", 500)
-    .attr("y", 550)
-    .text("Source: EPA's Climate Change Indicators in the United States • Graphic by Zhaozhou Dai")
-    .style("font-family","'DM Sans', sans-serif")
-    .style("font-size", "15px")
-    .style("fill", "#EEECE7");
+    .style("fill", "black");
 
     svg.append("text")
     .attr("text-anchor", "middle")
     .attr("x", 470)
-    .attr("y", 580)
-    .text("* Note: The upper bound is the largest possible value of the true measurement.")
-    .style("font-family","'DM Sans', sans-serif")
+    .attr("y", 730)
+    .text("Source: EPA's Climate Change Indicators in the United States • Graphic by Zhaozhou Dai")
+    .style("font-family","'times new roman',times,serif")
     .style("font-size", "15px")
-    .style("fill", "#EEECE7");
+    .style("fill", "black");
+
+    svg.append("text")
+    .attr("text-anchor", "middle")
+    .attr("x", 435)
+    .attr("y", 760)
+    .text("* Note: The upper bound is the largest possible value of the true measurement.")
+    .style("font-family","'times new roman',times,serif")
+    .style("font-size", "15px")
+    .style("fill", "black");
 
 
     /* TOOLTIP */
 
-    const tooltip = d3.select("#chart")
+    const tooltip2 = d3.select("#chart")
         .append("div")
-        .attr("class", "tooltip");
+        .attr("class", "tooltip2");
 
     points.on("mouseover", function(e,d) {
 
@@ -261,9 +263,9 @@ d3.csv("./data/global_sea_level_change.csv", parseCsv).then(function(data) {
         // Format the display of the numbers,
         // using d3.format()
         // See: https://github.com/d3/d3-format/blob/v3.1.0/README.md#format
-        let displayValue = d3.format(",")(d.year);
+        let displayValue = d3.format("")(d.year); // change the format of numbers in the tooltip
 
-        tooltip.style("visibility", "visible")
+        tooltip2.style("visibility", "visible")
             .style("top", `${y}px`)
             .style("left", `${x}px`)
             .html(`<b>Year: ${displayValue}</b>
@@ -276,7 +278,7 @@ d3.csv("./data/global_sea_level_change.csv", parseCsv).then(function(data) {
 
     }).on("mouseout", function() {
         // Reset tooltip and circles back to original appearance
-        tooltip.style("visibility", "hidden");
+        tooltip2.style("visibility", "hidden");
         points.attr("opacity", 1);
     });
 
@@ -347,7 +349,7 @@ d3.csv("./data/global_sea_level_change.csv", parseCsv).then(function(data) {
             .attr("x", legendMargin + 25)
             .attr("y", legendMargin + i*legendSpacing)
             .text(sea_name)
-            .style("fill", "#EEECE7");
+            .style("fill", "black");
     });
 
     /* 
@@ -395,7 +397,7 @@ d3.csv("./data/global_sea_level_change.csv", parseCsv).then(function(data) {
             .attr("x", legendMargin + 25)
             .attr("y", legendMargin + i*legendSpacing)
             .text(`${displayCount} Upper Error Bound`)
-            .style("fill", "#EEECE7");
+            .style("fill", "black");
     });
 
 });

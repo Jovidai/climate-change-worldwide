@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8">
     <title>How Climate Change Is Impacting Our Planet</title>
-    <link rel="icon" type="image/x-icon" href="https://uxwing.com/wp-content/themes/uxwing/download/nature-and-environment/climate-change-icon.png">
-    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no" />
+    <link rel="icon" type="image/x-icon" href="https://camd.northeastern.edu/wp-content/uploads/2018/11/cropped-n-plus-lockup-250x194.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
         name="og:title"
         content="Rising Temperatures, Rising Seas: The Urgent Need for Climate Action"/>
@@ -49,10 +49,12 @@
     <script src="https://d3js.org/d3.v7.min.js"></script>
     <script src="https://unpkg.com/topojson@3"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.3.0/d3.min.js"></script>
+
+	// 
  
 
     <script src="./scripts/interaction-observer.js"></script>
-    <script src="./scripts/scrolling.js"></script>
+    <!-- <script src="./scripts/scrolling.js"></script> -->
 
     <script src="./scripts/flickity.pkgd.min.js"></script>
 
@@ -82,21 +84,21 @@
         </video>
       </div>
 
-
-
+	<p class="tag">NEWS ANALYSIS | INVESTIGATION | CLIMATE CHANGE</p>
     <header>
       <div class="container">
         <div class="row">
           <div class="col-md-12">
             <h1>Rising Temperatures, Rising Seas: 
               <br>The Urgent Need for Climate Action</h1>
-            <h2>By Zhaozhou Dai</h2>
             <!-- <p><img src="assets/images/share-tools.jpeg" width="200px"></p> -->
           </div>
+		  <p class="byline">By <a href="https://www.jovidai.com/" target="new">Zhaozhou Dai</a></p>
+		  <p class="date">April 19, 2023, 8:30 a.m. ET</p>
         </div>
         
         <div class="paragraph">
-          <p>As the Earth's climate continues to change at an unprecedented rate, scientists are sounding the alarm about the potentially catastrophic impacts of rising temperatures and sea levels. In recent years, we have seen a steady increase in the average global temperature, with many regions experiencing extreme weather events, rising sea levels, and the loss of critical ecosystems.
+          <p><span class="dropcap">A</span>s the Earth's climate continues to change at an unprecedented rate, scientists are sounding the alarm about the potentially catastrophic impacts of rising temperatures and sea levels. In recent years, we have seen a steady increase in the average global temperature, with many regions experiencing extreme weather events, rising sea levels, and the loss of critical ecosystems.
           </p>
 
           <p>One of the most concerning consequences of rising temperatures is the melting of the Earth's ice caps and glaciers, which is causing sea levels to rise at an accelerated rate. According to the latest estimates from the <a href="https://www.conservation.org/blog/that-un-climate-report-wasnt-all-bad-news?gclid=Cj0KCQjwla-hBhD7ARIsAM9tQKsRmEUgjNJ8O75HO4Xrkx4Qiex1jPf9oprsueam1T_2UXgmp8_ooesaAkHnEALw_wcB" target="new">Intergovernmental Panel on Climate Change</a> (IPCC), sea levels could rise by anywhere from 0.3 to 2.5 feet (0.09 to 0.77 meters) by the end of the century, depending on how much action is taken to reduce greenhouse gas emissions.
@@ -120,45 +122,28 @@
           </div>
          
           <article>
-           <!-- Use this one as the beginning content: https://m.uhomes.com/news/3381.html -->
-           <!-- Use "Politics in this link: https://baike.baidu.com/item/%E6%B3%A2%E5%A3%AB%E9%A1%BF/81031#reference-[12]-11091760-wrap"-->
-           <!-- <div class="step lastone" data-step="5" data-bg="url(images/frontpage_2.jpg)" data-tx="Photo by Zhaozhou Dai">
-            <div class='title-container'>
-              <div class='image-text'>
-                  <h4>Crime | Median Household Income | Boston</h4>
-                  <h1> Crime & how it correlates to median household income in Boston</h1>
-                  <h2>Many factors influence crime rates in a neighborhood, but median household income is a crucial indicator.</h2>
-                  <p class='byline'>By Zhaozhou Dai</p>
-              </div>
-          </div>
-          </div> -->
+
             <div class="step" data-step="1" data-bg="url(assets/images/scroll-1/climate-change-1.jpg)" data-tx="Neige noire by bob august is licensed under CC BY-NC-SA 2.0.">
-              <p>The average global temperature has increased by about 1.1 degrees Celsius (2 degrees Fahrenheit) since the pre-industrial era. <a href="https://www.conservation.org/blog/that-un-climate-report-wasnt-all-bad-news?gclid=Cj0KCQjwla-hBhD7ARIsAM9tQKsTinpjrGXcRu3Dhi08-w5S-1wTzJhmHzKvuUl4mA6NS6O43xuIFccaAjp5EALw_wcB" target="new">(Source: IPCC)</a>
-                <br>
-                <br>
-                2020 was one of the three warmest years on record, with the global temperature being 1.2 degrees Celsius (2.2 degrees Fahrenheit) above pre-industrial levels. <a href="https://public.wmo.int/en/our-mandate/climate" target="new">(Source: World Meteorological Organization)</a>
+              <p>The average global temperature has increased by about <a href="https://www.conservation.org/blog/that-un-climate-report-wasnt-all-bad-news?gclid=Cj0KCQjwla-hBhD7ARIsAM9tQKsTinpjrGXcRu3Dhi08-w5S-1wTzJhmHzKvuUl4mA6NS6O43xuIFccaAjp5EALw_wcB" target="new">1.1 degrees Celsius </a> (2 degrees Fahrenheit) since the pre-industrial era.</a>
+                2020 was one of the three warmest years on record, with the global temperature being <a href="https://public.wmo.int/en/our-mandate/climate" target="new">1.2 degrees Celsius </a> (2.2 degrees Fahrenheit) above pre-industrial levels.
               </p>
             </div>
-            <div class="step" data-step="2" data-bg="url(assets/images/scroll-1/climate-change-2.jpg)" data-tx="Glaciers and Sea Level Rise by NASA Goddard Photo and Video is licensed under CC BY 2.0.">
+            <div class="step" data-step="2" data-bg="url(assets/images/scroll-1/climate-change-2.jpg)" data-tx="Glaciers and Sea Level Rise by NASA Goddard Photo is licensed under CC BY 2.0.">
               <p>The Arctic has been warming at a rate of two to three times faster than the global average, leading to significant ice loss and permafrost thaw.
-                <br>
-                <br>
-                Sea levels have risen by an average of about 8 inches (20 centimeters) since 1880, with the rate of sea-level rise accelerating in recent decades. <a href="https://climate.nasa.gov/" target="new">(Source: NASA)</a>
+                Sea levels have risen by an average of about <a href="https://climate.nasa.gov/" target="new">8 inches </a> (20 centimeters) since 1880, with the rate of sea-level rise accelerating in recent decades.
                 <br>
               </p>
             </div>
             <div class="step" data-step="3" data-bg="url(assets/images/scroll-1/climate-change-3.jpg)" data-tx="Pollution constante by bob august is licensed under CC BY-NC-SA 2.0.">
-              <p>The IPCC projects that sea levels could rise by anywhere from 0.3 to 2.5 feet (0.09 to 0.77 meters) by the end of the century, depending on future greenhouse gas emissions.
-              <br>
-              <br>
-              Extreme sea-level events that used to occur once per century could occur every year by mid-century in many regions, according to the IPCC. <a href="https://oceanconservancy.org/blog/2022/03/01/ipcc/?ea.tracking.id=23HPXGJAXX&utm_medium=PaidSearch&utm_source=GoogleGrants&utm_campaign=FY23&gclid=Cj0KCQjwla-hBhD7ARIsAM9tQKtKjGEAFrdsx-v6FnmfybH42oBsWLs1vZGLdTaSyYvgdbdE3cJVNSYaApe2EALw_wcB" target="new">(Source: IPCC)</a>
+              <p>The IPCC projects that sea levels could rise by anywhere from <a href="https://oceanconservancy.org/blog/2022/03/01/ipcc/?ea.tracking.id=23HPXGJAXX&utm_medium=PaidSearch&utm_source=GoogleGrants&utm_campaign=FY23&gclid=Cj0KCQjwla-hBhD7ARIsAM9tQKtKjGEAFrdsx-v6FnmfybH42oBsWLs1vZGLdTaSyYvgdbdE3cJVNSYaApe2EALw_wcB" target="new">0.3 to 2.5 feet </a> (0.09 to 0.77 meters) by the end of the century, depending on future greenhouse gas emissions.
+              Also, extreme sea-level events that used to occur once per century could occur every year by mid-century in many regions.
               </div>
             <div class="step" data-step="4" data-bg="url(assets/images/scroll-1/climate-change-4.jpg)" data-tx="Pollution in Haiti by Alex E. Proimos is licensed under CC BY-NC 2.0.">
-              <p>Some island nations and low-lying coastal areas are already experiencing the impacts of sea-level rise, with some communities having to relocate due to flooding and erosion. <a href="https://www.un.org/en/climatechange" target="new">(Source: United Nations)</a>
+              <p>Some island nations and low-lying coastal areas are already <a href="https://www.un.org/en/climatechange" target="new">experiencing the impacts of sea-level rise</a>, with some communities having to relocate due to flooding and erosion.</a>
               </p>
             </div>
             <div class="step" data-step="5" data-bg="url(assets/images/scroll-1/climate-change-5.jpg)" data-tx="Pollution of the environment by bilderleben.at is licensed under CC BY-NC-SA 2.0.">
-              <p>According to NASA, the last decade (2011-2020) was the warmest decade on record, with each year being among the top 10 warmest years on record. This trend is expected to continue unless significant action is taken to reduce greenhouse gas emissions. <a href="https://climate.nasa.gov/" target="new">(Source: NASA)</a>
+              <p>According to NASA, the last decade from 2011 to 2020 was <a href="https://climate.nasa.gov/" target="new">the warmest decade on record</a>, with each year being among the top 10 warmest years on record. This trend is expected to continue unless significant action is taken to reduce greenhouse gas emissions.
               </p>
             </div>
             <div class="step" data-step="6" data-bg="url(assets/images/scroll-1/climate-change-5.jpg)" data-tx="">
@@ -220,38 +205,46 @@
 
 
         <main>
-        <br>
-        <br>
-        <br>
 
         <div class="paragraph">
-          <p>Rising temperatures have become one of the most pressing issues facing our planet. The average global temperature has increased by about 1.1 degrees Celsius (2 degrees Fahrenheit) since the pre-industrial era, with 2020 being one of the three warmest years on record. This warming trend is largely driven by human activities such as burning fossil fuels, deforestation, and agriculture.
+
+	     <p>
+			Blanca Begert, an environmental journalist at Grist, shared her perspective on the issue of global warming and discussed the persistent trend of increasing temperatures in recent times.
+		 </p>
+
+          <p>She said rising temperatures have become one of the most pressing issues facing our planet, and the average global temperature has increased by about 1.1 degrees Celsius (2 degrees Fahrenheit) since the pre-industrial era, with 2020 being one of the three warmest years on record.
+		  </p>
+
+		  <blockquote>
+			<span class="dropcap-1">“</span>This warming trend is largely driven by human activities such as burning fossil fuels, deforestation and agriculture.<span class="dropcap-2">”</span>
+		  </blockquote>
+
+          <p>
+			Begert said one of the most concerning impacts of rising temperatures is the melting of ice caps and glaciers in the Arctic and Antarctic region. This melting not only contributes to rising sea levels but also has profound impacts on the Earth's ecosystems, including the loss of habitats for wildlife and changes in the timing of seasonal events such as bird migrations and plant flowering.
           </p>
 
-          <p>One of the most concerning impacts of rising temperatures is the melting of ice caps and glaciers in the Arctic and Antarctic regions. This melting not only contributes to rising sea levels but also has profound impacts on the Earth's ecosystems, including the loss of habitats for wildlife and changes in the timing of seasonal events such as bird migrations and plant flowering.
-        </p>
+          <p>
+			“Rising temperatures also exacerbate extreme weather events such as heatwaves, droughts, and wildfires,” She said. “In recent years, we have seen the devastating impacts of these events in many parts of the world, including in California, Australia and the Amazon rainforest.”
+          </p>
 
-        <p>Rising temperatures also exacerbate extreme weather events such as heatwaves, droughts, and wildfires. In recent years, we have seen the devastating impacts of these events in many parts of the world, including in California, Australia and the Amazon rainforest. These events not only pose a significant threat to human life and infrastructure but also have long-term impacts on ecosystems and the global economy.
-      </p>
+		  <p>
+			She added these events not only pose a significant threat to human life and infrastructure but also have long-term impacts on ecosystems and the global economy.
+		  </p>
 
-      <p>Addressing the root causes of rising temperatures is crucial if we hope to avoid the worst impacts of climate change. This means reducing greenhouse gas emissions by transitioning to renewable energy sources, promoting sustainable land use practices, and implementing policies that prioritize climate action. By taking action now, we can help ensure a more stable and sustainable future for generations to come.
-      </p>
+          <p>
+			“Addressing the root causes of rising temperatures is crucial if we hope to avoid the worst impacts of climate change,” Begert said. “This means reducing greenhouse gas emissions by transitioning to renewable energy sources, promoting sustainable land use practices, and implementing policies that prioritize climate action.”
+          </p>
 
-      </div>
+		  <p>
+			She said by taking action now, humans can help ensure a more stable and sustainable future for generations to come.
+		  </p>
 
-            <br>
-            <br>
-
+        </div>
           <!-- <h4>Here are some basic sketches of visualizations</h4> -->
     </header>
-    
 
-    <br>
-    <br>
-    <br>
-
-     <!-- First bar chart -->
-    <div class="axis path">
+     <!-- First bar chart: Highest -->
+    <div class="axis path" style="margin-top: 60px;">
         <svg id="barchart-highest"></svg>
         <g id="this"></g>
         <g id="rect"></g>
@@ -265,34 +258,31 @@
 
     <div id="tooltip"></div>
 
-
-    <div class="paragraph-2">
-        <p>Because the country names also cover the areas' names, the top ten list shows Europe and some European countries. It also has been illustrated that Europe is affected mostly by climate change with its neighbour Russian Federation.</p>
-          <p>And not surprisingly, all countries on the list are industrialized countries, excluding 'Svalbard and Jan Mayen Islands.' 
+    <div class="paragraph">
+        <p>Because the country names also cover the areas' names, the top ten list shows Europe and some European countries.</p>
+		<p>It also has been illustrated that Europe is affected mostly by climate change with its neighbour Russian Federation.</p>
+        <p>And not surprisingly, all countries on the list are industrialized countries, excluding 'Svalbard and Jan Mayen Islands.' 
             This area is top of the list, and near Europe and Russia, also it is the arctic area, its natural life is in danger because of <a href="https://www.deepdyve.com/lp/wiley/climate-change-impacts-on-wildlife-in-a-high-arctic-archipelago-zKjAbf0Y5t" target="new">this reason</a>.
         </p>
     </div>
 
-    
-    <br>
-    <br>
-    <br>
-    <br>
 
     <!-- <div class="col-md-13">
         <h3><b><i>[Another barchart of top ten countries that have lowest temperature change in the last decades will be done to replace by D3.]</i></b>
         </h3> 
     </div>   -->
+
     <br>
-    <br>
-    <br>
-    <br>
-    <div class="flourish-embed" data-src="visualisation/13066934"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+    <!-- Second lollipop chart: Lowest-->
+	<!-- <div id="chart2"></div>
+	<script src="./scripts/lollipop-lowest.js"></script> -->
+
+	<div class="flourish-embed" data-src="visualisation/13066934"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
     
     <br>
     <br>
 
-    <div class="paragraph-2">
+    <div class="paragraph">
 
       <p>
         As the world grapples with the ongoing COVID-19 pandemic, another global crisis continues to loom large: climate change. The latest report from the Intergovernmental Panel on Climate Change (IPCC) has sounded the alarm on the urgent need to take action to limit global warming to 1.5 degrees Celsius above pre-industrial levels.
@@ -313,20 +303,14 @@
       <p>
         Many countries and organizations have already taken steps towards these goals, including the United States rejoining the Paris Agreement, the European Union committing to net-zero emissions by 2050, and major corporations pledging to reduce their carbon footprint.
       </p>
-  
-  
-    </div>
 
-    <br>
-    <br>
-    <br>
-    <br>
+    </div>
 
 	<div class="chat-title">
-        <p>Mean Temperature Change of Meteorological year</p>
+        <p>Mean Temperature Change of Meteorological Year</p>
     </div>
 
-<!-- Generated by ai2html v0.115.1 - 2023-04-12 03:41 -->
+<!-- Generated by ai2html v0.115.1 - 2023-04-19 12:40 -->
 <!-- ai file: Annual_Surface_Temperature_Change_NEW.ai -->
 <style media="screen,print">
 	#g-Annual_Surface_Temperature_Change_NEW-box ,
@@ -356,13 +340,13 @@
 	}
 	#g-Annual_Surface_Temperature_Change_NEW-Artboard_1 p {
 		font-family:arial,helvetica,sans-serif;
-		line-height:19px;
+		line-height:21px;
 		height:auto;
 		opacity:1;
 		letter-spacing:0em;
-		font-size:16px;
+		font-size:17px;
 		text-align:left;
-		color:rgb(255,255,255);
+		color:rgb(0,0,0);
 		text-transform:none;
 		padding-bottom:0;
 		padding-top:0;
@@ -372,36 +356,28 @@
 	}
 	#g-Annual_Surface_Temperature_Change_NEW-Artboard_1 .g-pstyle0 {
 		font-weight:700;
-		line-height:21px;
 		height:21px;
 		letter-spacing:0.022em;
 		font-size:18px;
 		color:rgb(85,85,221);
 	}
 	#g-Annual_Surface_Temperature_Change_NEW-Artboard_1 .g-pstyle1 {
-		font-weight:500;
-		line-height:12px;
-		height:12px;
-		font-size:10px;
+		line-height:19px;
+		height:19px;
+		font-size:16px;
 	}
 	#g-Annual_Surface_Temperature_Change_NEW-Artboard_1 .g-pstyle2 {
-		font-weight:bold;
-		height:19px;
-	}
-	#g-Annual_Surface_Temperature_Change_NEW-Artboard_1 .g-pstyle3 {
-		font-weight:bold;
 		line-height:18px;
 		height:18px;
 		font-size:15px;
 	}
-	#g-Annual_Surface_Temperature_Change_NEW-Artboard_1 .g-pstyle4 {
-		font-weight:500;
+	#g-Annual_Surface_Temperature_Change_NEW-Artboard_1 .g-pstyle3 {
 		line-height:15px;
 		height:15px;
 		font-size:12px;
 	}
-	#g-Annual_Surface_Temperature_Change_NEW-Artboard_1 .g-pstyle5 {
-		height:19px;
+	#g-Annual_Surface_Temperature_Change_NEW-Artboard_1 .g-pstyle4 {
+		height:21px;
 	}
 
 </style>
@@ -411,154 +387,152 @@
 	<!-- Artboard: Artboard_1 -->
 	<div id="g-Annual_Surface_Temperature_Change_NEW-Artboard_1" class="g-artboard" style="max-width: 1280px;max-height: 720px" data-aspect-ratio="1.778" data-min-width="0">
 <div style="padding: 0 0 56.25% 0;"></div>
-		<img id="g-Annual_Surface_Temperature_Change_NEW-Artboard_1-img" class="g-Annual_Surface_Temperature_Change_NEW-Artboard_1-img g-aiImg" alt="" src="./assets/images/svg/ai2html-output/Annual_Surface_Temperature_Change_NEW-Artboard_1.png"/>
+		<img id="g-Annual_Surface_Temperature_Change_NEW-Artboard_1-img" class="g-Annual_Surface_Temperature_Change_NEW-Artboard_1-img g-aiImg" alt="" src="/assets/images/svg/ai2html-output/Annual_Surface_Temperature_Change_NEW-Artboard_1.png"/>
 		<div id="g-ai0-1" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:5.6161%;margin-top:-13.4px;left:77.5365%;width:182px;">
 			<p class="g-pstyle0">2016 had hottest record</p>
 		</div>
-		<div id="g-ai0-2" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:9.5609%;margin-top:-7.8px;left:8.2189%;width:42px;">
+		<div id="g-ai0-2" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:9.4462%;margin-top:-11px;left:8.2031%;width:42px;">
 			<p class="g-pstyle1">1.8</p>
 		</div>
-		<div id="g-ai0-3" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:10.748%;margin-top:-11.4px;left:11.1706%;width:237px;">
-			<p class="g-pstyle2">Mean Temperature Change</p>
+		<div id="g-ai0-3" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:10.6906%;margin-top:-11px;left:11.1706%;width:227px;">
+			<p class="g-pstyle1">Mean Temperature Change</p>
 		</div>
-		<div id="g-ai0-4" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:16.922%;margin-top:-7.8px;left:8.2189%;width:42px;">
-			<p class="g-pstyle1">1.6</p>
+		<div id="g-ai0-4" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:16.4535%;margin-top:-10.5px;left:8.2189%;width:42px;">
+			<p class="g-pstyle2">1.6</p>
 		</div>
-		<div id="g-ai0-5" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:24.2831%;margin-top:-7.8px;left:8.2189%;width:42px;">
-			<p class="g-pstyle1">1.4</p>
+		<div id="g-ai0-5" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:23.8081%;margin-top:-10.4px;left:8.2189%;width:42px;">
+			<p class="g-pstyle2">1.4</p>
 		</div>
-		<div id="g-ai0-6" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:31.6443%;margin-top:-7.8px;left:8.2189%;width:42px;">
-			<p class="g-pstyle1">1.2</p>
+		<div id="g-ai0-6" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:31.1627%;margin-top:-10.4px;left:8.2189%;width:42px;">
+			<p class="g-pstyle2">1.2</p>
 		</div>
-		<div id="g-ai0-7" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:39.0054%;margin-top:-7.8px;left:8.2189%;width:42px;">
+		<div id="g-ai0-7" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:38.4477%;margin-top:-10.8px;left:8.2031%;width:42px;">
 			<p class="g-pstyle1">1.0</p>
 		</div>
-		<div id="g-ai0-8" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:46.2276%;margin-top:-7.8px;left:8.2189%;width:42px;">
-			<p class="g-pstyle1">0.8</p>
+		<div id="g-ai0-8" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:45.7329%;margin-top:-10.3px;left:8.2031%;width:42px;">
+			<p class="g-pstyle2">0.8</p>
 		</div>
-		<div id="g-ai0-9" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:53.5887%;margin-top:-7.8px;left:8.2189%;width:42px;">
+		<div id="g-ai0-9" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:53.0181%;margin-top:-10.7px;left:8.2031%;width:42px;">
 			<p class="g-pstyle1">0.6</p>
 		</div>
-		<div id="g-ai0-10" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:60.9498%;margin-top:-7.8px;left:8.2189%;width:42px;">
-			<p class="g-pstyle1">0.4</p>
+		<div id="g-ai0-10" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:60.5809%;margin-top:-10.2px;left:8.2189%;width:42px;">
+			<p class="g-pstyle2">0.4</p>
 		</div>
-		<div id="g-ai0-11" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:68.3109%;margin-top:-7.8px;left:8.2189%;width:42px;">
-			<p class="g-pstyle1">0.2</p>
+		<div id="g-ai0-11" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:68.352%;margin-top:-10.1px;left:8.2189%;width:42px;">
+			<p class="g-pstyle2">0.2</p>
 		</div>
-		<div id="g-ai0-12" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:74.11%;margin-top:-10.6px;left:89.2131%;width:58px;">
-			<p class="g-pstyle3">Year</p>
+		<div id="g-ai0-12" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:74.0573%;margin-top:-10.2px;left:89.2151%;width:56px;">
+			<p class="g-pstyle2">Year</p>
 		</div>
-		<div id="g-ai0-13" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:75.672%;margin-top:-7.8px;left:8.2189%;width:42px;">
+		<div id="g-ai0-13" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:75.429%;margin-top:-11.1px;left:8.2812%;width:41px;">
 			<p class="g-pstyle1">0.0</p>
 		</div>
-		<div id="g-ai0-14" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:78.706%;margin-top:-9.7px;left:15.6044%;width:53px;">
-			<p class="g-pstyle4">1965</p>
+		<div id="g-ai0-14" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:77.7397%;margin-top:-8.7px;left:15.6044%;width:53px;">
+			<p class="g-pstyle3">1965</p>
 		</div>
-		<div id="g-ai0-15" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:78.706%;margin-top:-9.7px;left:21.85%;width:53px;">
-			<p class="g-pstyle4">1970</p>
+		<div id="g-ai0-15" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:77.7397%;margin-top:-8.7px;left:21.85%;width:53px;">
+			<p class="g-pstyle3">1970</p>
 		</div>
-		<div id="g-ai0-16" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:78.706%;margin-top:-9.7px;left:28.0956%;width:53px;">
-			<p class="g-pstyle4">1975</p>
+		<div id="g-ai0-16" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:77.7397%;margin-top:-8.7px;left:28.0956%;width:53px;">
+			<p class="g-pstyle3">1975</p>
 		</div>
-		<div id="g-ai0-17" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:78.706%;margin-top:-9.7px;left:34.3413%;width:53px;">
-			<p class="g-pstyle4">1980</p>
+		<div id="g-ai0-17" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:77.7397%;margin-top:-8.7px;left:34.3413%;width:53px;">
+			<p class="g-pstyle3">1980</p>
 		</div>
-		<div id="g-ai0-18" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:78.706%;margin-top:-9.7px;left:40.5868%;width:53px;">
-			<p class="g-pstyle4">1985</p>
+		<div id="g-ai0-18" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:77.7397%;margin-top:-8.7px;left:40.5868%;width:53px;">
+			<p class="g-pstyle3">1985</p>
 		</div>
-		<div id="g-ai0-19" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:78.706%;margin-top:-9.7px;left:46.8324%;width:53px;">
-			<p class="g-pstyle4">1990</p>
+		<div id="g-ai0-19" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:77.7397%;margin-top:-8.7px;left:46.8324%;width:53px;">
+			<p class="g-pstyle3">1990</p>
 		</div>
-		<div id="g-ai0-20" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:78.706%;margin-top:-9.7px;left:53.078%;width:53px;">
-			<p class="g-pstyle4">1995</p>
+		<div id="g-ai0-20" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:77.7397%;margin-top:-8.7px;left:53.078%;width:53px;">
+			<p class="g-pstyle3">1995</p>
 		</div>
-		<div id="g-ai0-21" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:78.706%;margin-top:-9.7px;left:59.3234%;width:53px;">
-			<p class="g-pstyle4">2000</p>
+		<div id="g-ai0-21" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:77.7397%;margin-top:-8.7px;left:59.3234%;width:53px;">
+			<p class="g-pstyle3">2000</p>
 		</div>
-		<div id="g-ai0-22" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:78.706%;margin-top:-9.7px;left:65.5692%;width:53px;">
-			<p class="g-pstyle4">2005</p>
+		<div id="g-ai0-22" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:77.7397%;margin-top:-8.7px;left:65.5692%;width:53px;">
+			<p class="g-pstyle3">2005</p>
 		</div>
-		<div id="g-ai0-23" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:78.706%;margin-top:-9.7px;left:71.8147%;width:53px;">
-			<p class="g-pstyle4">2010</p>
+		<div id="g-ai0-23" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:77.7397%;margin-top:-8.7px;left:71.8147%;width:53px;">
+			<p class="g-pstyle3">2010</p>
 		</div>
-		<div id="g-ai0-24" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:78.706%;margin-top:-9.7px;left:78.0604%;width:53px;">
-			<p class="g-pstyle4">2015</p>
+		<div id="g-ai0-24" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:77.7397%;margin-top:-8.7px;left:78.0604%;width:53px;">
+			<p class="g-pstyle3">2015</p>
 		</div>
-		<div id="g-ai0-25" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:78.706%;margin-top:-9.7px;left:84.3059%;width:53px;">
-			<p class="g-pstyle4">2020</p>
+		<div id="g-ai0-25" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:77.7397%;margin-top:-8.7px;left:84.3059%;width:53px;">
+			<p class="g-pstyle3">2020</p>
 		</div>
-		<div id="g-ai0-26" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:78.706%;margin-top:-9.7px;left:90.5513%;width:53px;">
-			<p class="g-pstyle4">2025</p>
+		<div id="g-ai0-26" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:77.7397%;margin-top:-8.7px;left:90.5513%;width:53px;">
+			<p class="g-pstyle3">2025</p>
 		</div>
-		<div id="g-ai0-27" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:83.0331%;margin-top:-7.8px;left:7.5781%;width:50px;">
-			<p class="g-pstyle1">&minus;0.2</p>
+		<div id="g-ai0-27" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:82.2974%;margin-top:-10.5px;left:7.4219%;width:52px;">
+			<p class="g-pstyle2">&minus; 0.2</p>
 		</div>
-		<div id="g-ai0-28" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:90.3942%;margin-top:-7.8px;left:7.5781%;width:50px;">
-			<p class="g-pstyle1">&minus;0.4</p>
+		<div id="g-ai0-28" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:90.5363%;margin-top:-10.9px;left:7.2656%;width:51px;">
+			<p class="g-pstyle1">&minus; 0.4</p>
 		</div>
-		<div id="g-ai0-29" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:94.8389%;margin-top:-10.8px;left:34.4291%;width:444px;">
-			<p class="g-pstyle5">Source: FAO Temperature Change &bull; Graphic by Zhaozhou Dai</p>
+		<div id="g-ai0-29" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:94.9082%;margin-top:-12.3px;left:34.4291%;width:444px;">
+			<p class="g-pstyle4">Source: <a href="https://www.fao.org/climate-change/en" target="new">FAO Temperature Change</a> &bull; Graphic by Zhaozhou Dai</p>
 		</div>
 	</div>
 
 </div>
 
-<!-- End ai2html - 2023-04-12 03:41 -->
+<!-- End ai2html - 2023-04-19 12:40 -->
 
-
-    <!-- <div class="flourish-embed" data-src="visualisation/13245057"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
-    <br> -->
-
-    <!-- Another bar chart
-    <div class="section">
-        <svg id="barchart-lowest.js"></svg>
-        <g id="this"></g>
-        <g id="rect"></g>
-        <g id="x"></g>
-        <g id="y"></g>
-    
-        </div>
-
-    <script src="./JS/barchart-lowest.js"></script>
-
-    <div id="tooltip"></div> -->
-
-
-    <br>
-    <br>
-    <br>
-    <br>
-
-    <div class="paragraph-2">
+    <div class="paragraph">
 
     <p>
-      In addition to the impacts on coastal communities, rising sea levels also have significant implications for global biodiversity and ecosystems. As sea levels rise, saltwater intrusion can impact freshwater ecosystems and harm biodiversity in coastal wetlands and estuaries. Coral reefs are also at risk, as they are highly sensitive to changes in sea level and temperature. The loss of these ecosystems can have ripple effects throughout the food chain and further exacerbate the impacts of climate change.
+      “In addition to the impacts on coastal communities, rising sea levels also have significant implications for global biodiversity and ecosystems,” said Emily Hopkins.
+    </p>
+
+	<p>
+		Hopkins of Boston, an environmental data reporter who is affiliated with ProPublica, has weighed in on the topic of sea level rise, offering their insights on the matter.
+	</p>
+
+	<p>
+		“As sea levels rise, saltwater intrusion can impact freshwater ecosystems and harm biodiversity in coastal wetlands and estuaries,” Hopkins said. “Coral reefs are also at risk, as they are highly sensitive to changes in sea level and temperature.”
+	</p>
+
+	<blockquote>
+		<span class="dropcap-1">“</span>The loss of these ecosystems can have ripple effects throughout the food chain and further exacerbate the impacts of climate change.<span class="dropcap-2">”</span>
+	</blockquote>
+
+    <p>
+      Hopkins said the NOAA report underscores the need for urgent and coordinated action to address the root causes of rising sea levels, and it includes both mitigation efforts to reduce greenhouse gas emissions and adaptation measures to help communities prepare for and respond to the impacts of climate change.
+    </p>
+
+	<p>
+	  “It is also important to ensure that vulnerable communities, particularly those in low-lying areas and small island nations, have access to the resources and support they need to adapt to the changing climate,” they said.
+	</p>
+
+    <p>
+      While the situation may seem dire, there is reason for hope. The recent COP26 climate summit saw many countries and organizations committing to ambitious climate goals and pledging to take action to address the root causes of climate change.
+    </p>
+
+	<p>
+      They said it includes investments in renewable energy, forest conservation, and other climate-friendly practices.
+	</p>
+
+    <p>
+	   “Many communities and organizations have already taken steps towards these goals, including implementing coastal protection measures, promoting renewable energy, and reducing carbon footprints,” Hopkins said. “However, more needs to be done to ensure that vulnerable communities are protected from the impacts of rising sea levels.”
     </p>
 
     <p>
-      The NOAA report underscores the need for urgent and coordinated action to address the root causes of rising sea levels. This includes both mitigation efforts to reduce greenhouse gas emissions and adaptation measures to help communities prepare for and respond to the impacts of climate change. It is also important to ensure that vulnerable communities, particularly those in low-lying areas and small island nations, have access to the resources and support they need to adapt to the changing climate.
+	  Hopkins said sea level change refers to the rise or fall of the average height of the ocean's surface over time.
     </p>
 
-    <p>
-      While the situation may seem dire, there is reason for hope. The recent COP26 climate summit saw many countries and organizations committing to ambitious climate goals and pledging to take action to address the root causes of climate change. This includes investments in renewable energy, forest conservation, and other climate-friendly practices.
-    </p>
-
-    <p>
-      Many communities and organizations have already taken steps towards these goals, including implementing coastal protection measures, promoting renewable energy, and reducing carbon footprints. However, more needs to be done to ensure that vulnerable communities are protected from the impacts of rising sea levels.
-    </p>
-
-    <p>
-	  Also, sea level change refers to the rise or fall of the average height of the ocean's surface over time. The average global sea level has been increasing at a rate of around 3.3 millimeters per year over the last two decades, which is significantly higher than the average rate of sea level rises over the past few thousand years.
-    </p>
+	<p>
+	  “The average global sea level has been increasing at a rate of around 3.3 millimeters per year over the last two decades, which is significantly higher than the average rate of sea level rises over the past few thousand years,” Hopkins said.
+	</p>
 
   </div>
 
    <br>
    <br>
-   <br>
-   <br>
 
-<!-- Generated by ai2html v0.115.1 - 2023-04-12 00:45 -->
+<!-- Generated by ai2html v0.115.1 - 2023-04-18 23:30 -->
 <!-- ai file: Trend_in_Mean_Sea_Levels.ai -->
 <style media="screen,print">
 	#g-Trend_in_Mean_Sea_Levels-box ,
@@ -594,7 +568,7 @@
 		letter-spacing:0em;
 		font-size:13px;
 		text-align:left;
-		color:rgb(255,255,255);
+		color:rgb(0,0,0);
 		text-transform:none;
 		padding-bottom:0;
 		padding-top:0;
@@ -631,9 +605,9 @@
 	}
 	#g-Trend_in_Mean_Sea_Levels-Artboard_1 .g-pstyle5 {
 		font-family:arial,helvetica,sans-serif;
-		line-height:19px;
-		height:19px;
-		font-size:16px;
+		line-height:21px;
+		height:21px;
+		font-size:17px;
 	}
 
 </style>
@@ -803,61 +777,48 @@
 		<div id="g-ai0-53" class="g-Layer_1 g-aiAbs g-aiPointText" style="transform: matrix(0.0903,0.9959,-0.9967,0.0808,0,0);transform-origin: 50% 55.2127876196294%;-webkit-transform: matrix(0.0903,0.9959,-0.9967,0.0808,0,0);-webkit-transform-origin: 50% 55.2127876196294%;-ms-transform: matrix(0.0903,0.9959,-0.9967,0.0808,0,0);-ms-transform-origin: 50% 55.2127876196294%;top:88.9711%;margin-top:-9.6px;left:34.9382%;margin-left:-24px;width:48px;">
 			<p class="g-pstyle0">Nino</p>
 		</div>
-		<div id="g-ai0-54" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:95.5333%;margin-top:-10.8px;left:64.401%;width:444px;">
-			<p class="g-pstyle5">Source: FAO Temperature Change &bull; Graphic by Zhaozhou Dai</p>
+		<div id="g-ai0-54" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:95.4582%;margin-top:-12.3px;left:62.7604%;width:444px;">
+			<p class="g-pstyle5">Source: <a href="https://www.fao.org/climate-change/en" target="new">FAO Temperature Change</a> &bull; Graphic by Zhaozhou Dai</p>
 		</div>
 	</div>
 
 </div>
 
-<!-- End ai2html - 2023-04-12 00:45 -->
-
-
-    <!-- <div class="col-md-13">
-        <h3><b><i>[An interactive scatterplot of annex I countries and non-annex I countries here.]</i></b>
-            <br>
-        </h3> 
-    </div>   -->
-
-    <!-- <div class="container">
-
-        <div class="row">
-          <div class="col-md-12">
-            <p><img src="assets/images/newplot.png" width="800px"></p>
-          </div>
-    </div> -->
-
-   <br>
-   <br>
-   <br>
-
+<!-- End ai2html - 2023-04-18 23:30 -->
    
-
-    <div class="paragraph-2">
+    <div class="paragraph">
       <p>
         Several factors contribute to changes in sea level. One of the main factors is thermal expansion, which occurs when seawater warms up and expands in volume. This causes the sea level to rise. Another major factor is the melting of land-based ice sheets and glaciers, which adds more water to the ocean and raises the sea level. Additionally, changes in ocean currents, winds, and atmospheric pressure can also affect sea levels.
       </p>
 
-      <p>
-		Sea level change can significantly impact coastal regions, as rising seas can cause flooding, erosion, and damage to infrastructure. It can also affect marine ecosystems and the livelihoods of people who rely on the ocean for food and resources.
-      </p>
+      <blockquote>
+		<span class="dropcap-1">“</span>Sea level change can significantly impact coastal regions, as rising seas can cause flooding, erosion, and damage to infrastructure.<span class="dropcap-2">”</span>
+	  </blockquote>
 
 	  <p>
-		In addition to human-caused climate change, sea level change can also be influenced by natural factors such as tectonic activity, which can cause the land to rise or sink relative to sea level, and changes in the Earth's orbit and tilt, which can affect the distribution of sunlight and the amount of heat absorbed by the planet.
+		“It can also affect marine ecosystems and the livelihoods of people who rely on the ocean for food and resources,” Hopkins said.
+	  </p>
+
+	  <p>
+		Hopkins said in addition to human-caused climate change, sea level change can also be influenced by natural factors such as tectonic activity, which can cause the land to rise or sink relative to sea level.
+	  </p>
+
+
+	  <p>
+		“Changes in the Earth's orbit and tilt, which can affect the distribution of sunlight and the amount of heat absorbed by the planet,” they said.
 	  </p>
       
 	  <p>
-		There is also significant regional variation in sea level change, with some areas experiencing greater rates of sea level rise than others. This is due to various factors, including differences in ocean currents, temperature, and salinity, as well as local changes in land elevation and subsidence.
+		They said there is also significant regional variation in sea level change, with some areas experiencing greater rates of sea level rise than others.
+	  </p>
+
+	  <p>
+		“The reason is due to various factors, including differences in ocean currents, temperature, and salinity, as well as local changes in land elevation and subsidence,” Hopkins said.
 	  </p>
 	
 	</div>
 
-    <br>
-    <br>
-    <br>
-	<br>
-    <br>
-	<br>
+
 
 	<div id="axis path">
 		<div id="chart"></div>
@@ -866,17 +827,10 @@
 		</div>
 	</div>
 	<script src="./scripts/scatterplot.js"></script>
+	<div id="tooltip2"></div>
 
 
-
-
-   <br>
-   <br>
-   <br>
-
-
-
-   <div class="paragraph-2">
+   <div class="paragraph">
     <p>
       As global temperatures continue to rise, the effects of climate change are becoming increasingly visible in some of the world's most remote and vulnerable ecosystems. In the Arctic, the melting of glaciers and sea ice is leading to rising sea levels and impacting the survival of iconic species like the polar bear.
     </p>
@@ -889,18 +843,24 @@
       The melting of glaciers and sea ice is also having a significant impact on Arctic wildlife, including the polar bear. These animals depend on sea ice for hunting and breeding, and as the ice continues to melt, their habitat is shrinking. The loss of sea ice also increases the risk of polar bears coming into contact with humans, as they may be forced to travel further in search of food.
     </p>
 
+	<p>
+		The situation is particularly dire in the Beaufort Sea, where a recent study has found that polar bears are experiencing "significant declines" due to the loss of sea ice.
+	</p>
+
     </div>
 
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
+	<div class="chat-title">
+        <p>Global Land and Ocean Temperature Anomalies from 1850 to 2022</p>
+    </div>
+	<p style="text-align: center;">Source: <a href="https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/global/time-series/globe/land_ocean/ytd/12/1850-2022" target="new">National Centers for Environmental Information</a> • Graphic by Zhaozhou Dai</p>
 
+
+	<!-- Storyline for the January-December Temperature Anomalies from 1850 to 2022 -->
+	<iframe class="storyline" src="https://cdn.knightlab.com/libs/storyline/latest/embed/index.html?dataURL=https%3A%2F%2Fdocs.google.com%2Fspreadsheets%2Fd%2Fe%2F2PACX-1vR-8lx1oZeDhtk-6r02acQM09K3HPDCrZKO-5i_v4sSiL6TQDEsbd0_rJ2GGJZ60TDKKaEDJkSXU35U%2Fpubhtml&amp;dataYCol=value&amp;dataXCol=year&amp;dataDateFormat=%25Y&amp;chartDateFormat=%25Y&amp;chartYLabel=Values%20of%20Temperature%20Anomalies%20(Celsius)&amp;sliderCardTitleCol=title&amp;sliderCardTextCol=text" 
+	style="width:100%;height:650px;" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0"></iframe>
 
 	<!-- Flickity HTML init -->
-	<div class="carousel"
+	<!-- <div class="carousel"
 	data-flickity='{ "imagesLoaded": true, "percentPosition": false }'>
 	<img src="./assets/images/carousel/sea-level-1.jpg" alt="Sea Level Rise" />
 	<img src="./assets/images/carousel/sea-level-2.jpg" alt="Sea Level Rise" />
@@ -908,19 +868,9 @@
 	<img src="./assets/images/carousel/glacier-melt-4.jpg" alt="Glacier Melt" />
 	<img src="./assets/images/carousel/glacier-melt-5.jpg" alt="Glacier Melt" />
 	<img src="./assets/images/carousel/polar-bear-6.jpg" alt="Polar Bear" />
-    </div>
+    </div> -->
 
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-
-	<div class="paragraph-2">
-    <p>
-      The situation is particularly dire in the Beaufort Sea, where a recent study has found that polar bears are experiencing "significant declines" due to the loss of sea ice.
-    </p>
+	<div class="paragraph">
 
 	<p>
 		The study highlights the urgent need for action to reduce greenhouse gas emissions and slow the rate of climate change, in order to protect vulnerable species like the polar bear and preserve the unique ecosystems of the Arctic.
@@ -934,19 +884,21 @@
 	  The recent COP26 climate summit in Glasgow brought together leaders from around the world to discuss and coordinate efforts to address the ongoing crisis of climate change.
 	</p>
 
-    </div>
+	<p>
+        With continued global cooperation and a commitment to bold action, we can work towards a more sustainable future and protect the fragile ecosystems and wildlife that depend on it.
+      </p>
 
-   <br>
-   <br>
+	  <p>
+		Sea level change can have significant impacts on coastal regions, as rising seas can cause flooding, erosion, and damage to infrastructure. It can also affect marine ecosystems and the livelihoods of people who rely on the ocean for food and resources.
+	  </p>
+
+    </div>
 
 <!-- 
     <h3><b><i>[An interactive map of temperature change from 1961 to 2019.]</i></b>
         </h3> 
     </div>   -->
 
-    <br>
-    <br>
-    <br>
 
     <!-- <div class="paragraph-3">
    
@@ -962,7 +914,7 @@
 	  
 		  <div class="ai2html-container">
 
-<!-- Generated by ai2html v0.115.1 - 2023-04-12 14:10 -->
+<!-- Generated by ai2html v0.115.1 - 2023-04-19 13:19 -->
 <!-- ai file: Impacts of global warming on glaciers and sea level rise.ai -->
 <style media="screen,print">
 	#g-Impacts-of-global-warming-on-glaciers-and-sea-level-rise-box ,
@@ -999,7 +951,7 @@
 		letter-spacing:0em;
 		font-size:31px;
 		text-align:left;
-		color:rgb(255,255,255);
+		color:rgb(0,0,0);
 		text-transform:none;
 		padding-bottom:0;
 		padding-top:0;
@@ -1021,14 +973,12 @@
 		line-height:34px;
 		height:34px;
 		font-size:29px;
-		color:rgb(243,243,243);
 	}
 	#g-Impacts-of-global-warming-on-glaciers-and-sea-level-rise-Artboard_1 .g-pstyle3 {
 		font-weight:500;
 		line-height:33px;
 		height:33px;
 		font-size:27px;
-		color:rgb(0,0,0);
 	}
 	#g-Impacts-of-global-warming-on-glaciers-and-sea-level-rise-Artboard_1 .g-pstyle4 {
 		line-height:34px;
@@ -1050,22 +1000,24 @@
 		text-align:center;
 	}
 	#g-Impacts-of-global-warming-on-glaciers-and-sea-level-rise-Artboard_1 .g-pstyle7 {
-		line-height:34px;
-		height:34px;
-		font-size:29px;
-	}
-	#g-Impacts-of-global-warming-on-glaciers-and-sea-level-rise-Artboard_1 .g-pstyle8 {
 		font-weight:500;
 		line-height:25px;
 		height:25px;
 		font-size:21px;
-		color:rgb(221,85,85);
+		color:rgb(93,173,226);
 	}
-	#g-Impacts-of-global-warming-on-glaciers-and-sea-level-rise-Artboard_1 .g-pstyle9 {
+	#g-Impacts-of-global-warming-on-glaciers-and-sea-level-rise-Artboard_1 .g-pstyle8 {
 		font-weight:500;
 		line-height:33px;
 		height:33px;
 		font-size:27px;
+		color:rgb(26,188,156);
+	}
+	#g-Impacts-of-global-warming-on-glaciers-and-sea-level-rise-Artboard_1 .g-pstyle9 {
+		font-weight:500;
+		line-height:25px;
+		height:25px;
+		font-size:21px;
 		color:rgb(221,85,85);
 	}
 	#g-Impacts-of-global-warming-on-glaciers-and-sea-level-rise-Artboard_1 .g-pstyle10 {
@@ -1077,7 +1029,6 @@
 	#g-Impacts-of-global-warming-on-glaciers-and-sea-level-rise-Artboard_1 .g-pstyle11 {
 		line-height:34px;
 		font-size:28px;
-		color:rgb(243,243,243);
 	}
 	#g-Impacts-of-global-warming-on-glaciers-and-sea-level-rise-Artboard_1 .g-pstyle12 {
 		line-height:19px;
@@ -1091,22 +1042,27 @@
 		color:rgb(221,34,34);
 	}
 	#g-Impacts-of-global-warming-on-glaciers-and-sea-level-rise-Artboard_1 .g-cstyle2 {
+		color:rgb(0,0,0);
+	}
+	#g-Impacts-of-global-warming-on-glaciers-and-sea-level-rise-Artboard_1 .g-cstyle3 {
 		color:rgb(255,255,255);
+	}
+	#g-Impacts-of-global-warming-on-glaciers-and-sea-level-rise-Artboard_1 .g-cstyle4 {
+		color:rgb(93,173,226);
 	}
 	#g-Impacts-of-global-warming-on-glaciers-and-sea-level-rise-Artboard_2 {
 		position:relative;
 		overflow:hidden;
 	}
 	#g-Impacts-of-global-warming-on-glaciers-and-sea-level-rise-Artboard_2 p {
-		font-family:arial,helvetica,sans-serif;
-		font-weight:bold;
-		line-height:30px;
+		font-weight:500;
+		line-height:19px;
 		height:auto;
 		opacity:1;
 		letter-spacing:0em;
-		font-size:25px;
+		font-size:16px;
 		text-align:left;
-		color:rgb(255,255,255);
+		color:rgb(221,85,85);
 		text-transform:none;
 		padding-bottom:0;
 		padding-top:0;
@@ -1115,81 +1071,81 @@
 		position:static;
 	}
 	#g-Impacts-of-global-warming-on-glaciers-and-sea-level-rise-Artboard_2 .g-pstyle0 {
+		font-family:arial,helvetica,sans-serif;
+		font-weight:bold;
+		line-height:30px;
 		height:30px;
+		font-size:25px;
 		text-align:center;
+		color:rgb(0,0,0);
 	}
 	#g-Impacts-of-global-warming-on-glaciers-and-sea-level-rise-Artboard_2 .g-pstyle1 {
-		font-weight:500;
 		line-height:23px;
 		height:23px;
 		font-size:19px;
+		color:rgb(0,0,0);
 	}
 	#g-Impacts-of-global-warming-on-glaciers-and-sea-level-rise-Artboard_2 .g-pstyle2 {
+		font-family:arial,helvetica,sans-serif;
 		line-height:27px;
 		height:27px;
 		font-size:23px;
-		color:rgb(243,243,243);
+		color:rgb(0,0,0);
 	}
 	#g-Impacts-of-global-warming-on-glaciers-and-sea-level-rise-Artboard_2 .g-pstyle3 {
-		font-weight:500;
 		line-height:26px;
 		height:26px;
 		font-size:22px;
 		color:rgb(0,0,0);
 	}
 	#g-Impacts-of-global-warming-on-glaciers-and-sea-level-rise-Artboard_2 .g-pstyle4 {
+		font-family:arial,helvetica,sans-serif;
 		line-height:27px;
 		height:27px;
 		font-size:23px;
 		color:rgb(85,85,221);
 	}
 	#g-Impacts-of-global-warming-on-glaciers-and-sea-level-rise-Artboard_2 .g-pstyle5 {
+		font-family:arial,helvetica,sans-serif;
 		line-height:32px;
 		height:32px;
 		font-size:27px;
 		text-align:center;
+		color:rgb(0,0,0);
 	}
 	#g-Impacts-of-global-warming-on-glaciers-and-sea-level-rise-Artboard_2 .g-pstyle6 {
-		font-weight:500;
 		line-height:26px;
 		height:26px;
 		font-size:22px;
 		color:rgb(85,85,221);
 	}
 	#g-Impacts-of-global-warming-on-glaciers-and-sea-level-rise-Artboard_2 .g-pstyle7 {
-		line-height:27px;
-		height:27px;
-		font-size:23px;
+		height:19px;
 	}
 	#g-Impacts-of-global-warming-on-glaciers-and-sea-level-rise-Artboard_2 .g-pstyle8 {
-		font-weight:500;
-		line-height:19px;
-		height:19px;
-		font-size:16px;
-		color:rgb(221,85,85);
-	}
-	#g-Impacts-of-global-warming-on-glaciers-and-sea-level-rise-Artboard_2 .g-pstyle9 {
-		font-weight:500;
 		line-height:26px;
 		height:26px;
 		font-size:22px;
-		color:rgb(221,85,85);
+		color:rgb(26,188,156);
 	}
-	#g-Impacts-of-global-warming-on-glaciers-and-sea-level-rise-Artboard_2 .g-pstyle10 {
-		font-weight:500;
+	#g-Impacts-of-global-warming-on-glaciers-and-sea-level-rise-Artboard_2 .g-pstyle9 {
 		line-height:22px;
 		height:22px;
 		font-size:18px;
+		color:rgb(0,0,0);
 	}
-	#g-Impacts-of-global-warming-on-glaciers-and-sea-level-rise-Artboard_2 .g-pstyle11 {
+	#g-Impacts-of-global-warming-on-glaciers-and-sea-level-rise-Artboard_2 .g-pstyle10 {
+		font-family:arial,helvetica,sans-serif;
 		line-height:27px;
 		font-size:22px;
-		color:rgb(243,243,243);
+		color:rgb(0,0,0);
 	}
-	#g-Impacts-of-global-warming-on-glaciers-and-sea-level-rise-Artboard_2 .g-pstyle12 {
+	#g-Impacts-of-global-warming-on-glaciers-and-sea-level-rise-Artboard_2 .g-pstyle11 {
+		font-family:arial,helvetica,sans-serif;
 		line-height:14px;
 		height:14px;
 		font-size:12px;
+		color:rgb(0,0,0);
 	}
 	#g-Impacts-of-global-warming-on-glaciers-and-sea-level-rise-Artboard_2 .g-cstyle0 {
 		color:rgb(221,85,85);
@@ -1198,7 +1154,125 @@
 		color:rgb(221,34,34);
 	}
 	#g-Impacts-of-global-warming-on-glaciers-and-sea-level-rise-Artboard_2 .g-cstyle2 {
+		color:rgb(0,0,0);
+	}
+	#g-Impacts-of-global-warming-on-glaciers-and-sea-level-rise-Artboard_2 .g-cstyle3 {
 		color:rgb(255,255,255);
+	}
+	#g-Impacts-of-global-warming-on-glaciers-and-sea-level-rise-Artboard_2 .g-cstyle4 {
+		color:rgb(93,173,226);
+	}
+	#g-Impacts-of-global-warming-on-glaciers-and-sea-level-rise-Artboard_4 {
+		position:relative;
+		overflow:hidden;
+	}
+	#g-Impacts-of-global-warming-on-glaciers-and-sea-level-rise-Artboard_4 p {
+		font-family:arial,helvetica,sans-serif;
+		font-weight:bold;
+		line-height:38px;
+		height:auto;
+		opacity:1;
+		letter-spacing:0em;
+		font-size:31px;
+		text-align:left;
+		color:rgb(0,0,0);
+		text-transform:none;
+		padding-bottom:0;
+		padding-top:0;
+		mix-blend-mode:normal;
+		font-style:normal;
+		position:static;
+	}
+	#g-Impacts-of-global-warming-on-glaciers-and-sea-level-rise-Artboard_4 .g-pstyle0 {
+		height:38px;
+		text-align:center;
+	}
+	#g-Impacts-of-global-warming-on-glaciers-and-sea-level-rise-Artboard_4 .g-pstyle1 {
+		font-weight:500;
+		line-height:29px;
+		height:29px;
+		font-size:24px;
+	}
+	#g-Impacts-of-global-warming-on-glaciers-and-sea-level-rise-Artboard_4 .g-pstyle2 {
+		line-height:34px;
+		height:34px;
+		font-size:29px;
+	}
+	#g-Impacts-of-global-warming-on-glaciers-and-sea-level-rise-Artboard_4 .g-pstyle3 {
+		font-weight:500;
+		line-height:33px;
+		height:33px;
+		font-size:27px;
+	}
+	#g-Impacts-of-global-warming-on-glaciers-and-sea-level-rise-Artboard_4 .g-pstyle4 {
+		line-height:34px;
+		height:34px;
+		font-size:29px;
+		color:rgb(85,85,221);
+	}
+	#g-Impacts-of-global-warming-on-glaciers-and-sea-level-rise-Artboard_4 .g-pstyle5 {
+		font-weight:500;
+		line-height:33px;
+		height:33px;
+		font-size:27px;
+		color:rgb(85,85,221);
+	}
+	#g-Impacts-of-global-warming-on-glaciers-and-sea-level-rise-Artboard_4 .g-pstyle6 {
+		line-height:36px;
+		height:36px;
+		font-size:30px;
+		text-align:center;
+	}
+	#g-Impacts-of-global-warming-on-glaciers-and-sea-level-rise-Artboard_4 .g-pstyle7 {
+		font-weight:500;
+		line-height:25px;
+		height:25px;
+		font-size:21px;
+		color:rgb(93,173,226);
+	}
+	#g-Impacts-of-global-warming-on-glaciers-and-sea-level-rise-Artboard_4 .g-pstyle8 {
+		font-weight:500;
+		line-height:33px;
+		height:33px;
+		font-size:27px;
+		color:rgb(26,188,156);
+	}
+	#g-Impacts-of-global-warming-on-glaciers-and-sea-level-rise-Artboard_4 .g-pstyle9 {
+		font-weight:500;
+		line-height:25px;
+		height:25px;
+		font-size:21px;
+		color:rgb(221,85,85);
+	}
+	#g-Impacts-of-global-warming-on-glaciers-and-sea-level-rise-Artboard_4 .g-pstyle10 {
+		font-weight:500;
+		line-height:28px;
+		height:28px;
+		font-size:23px;
+	}
+	#g-Impacts-of-global-warming-on-glaciers-and-sea-level-rise-Artboard_4 .g-pstyle11 {
+		line-height:34px;
+		font-size:28px;
+	}
+	#g-Impacts-of-global-warming-on-glaciers-and-sea-level-rise-Artboard_4 .g-pstyle12 {
+		line-height:19px;
+		height:19px;
+		font-size:16px;
+	}
+	#g-Impacts-of-global-warming-on-glaciers-and-sea-level-rise-Artboard_4 .g-cstyle0 {
+		color:rgb(221,85,85);
+	}
+	#g-Impacts-of-global-warming-on-glaciers-and-sea-level-rise-Artboard_4 .g-cstyle1 {
+		color:rgb(221,34,34);
+	}
+	#g-Impacts-of-global-warming-on-glaciers-and-sea-level-rise-Artboard_4 .g-cstyle2 {
+		color:rgb(0,0,0);
+	}
+	#g-Impacts-of-global-warming-on-glaciers-and-sea-level-rise-Artboard_4 .g-cstyle3 {
+		color:rgb(255,255,255);
+	}
+	#g-Impacts-of-global-warming-on-glaciers-and-sea-level-rise-Artboard_4 .g-cstyle4 {
+		color:rgb(93,173,226);
 	}
 
 </style>
@@ -1206,12 +1280,12 @@
 <div id="g-Impacts-of-global-warming-on-glaciers-and-sea-level-rise-box" class="ai2html">
 
 	<!-- Artboard: Artboard_1 -->
-	<div id="g-Impacts-of-global-warming-on-glaciers-and-sea-level-rise-Artboard_1" class="g-artboard" style="width:1280px; height:720px;" data-aspect-ratio="1.778" data-min-width="1280">
+	<div id="g-Impacts-of-global-warming-on-glaciers-and-sea-level-rise-Artboard_1" class="g-artboard" style="width:1151px; height:720px;" data-aspect-ratio="1.599" data-min-width="1151" data-max-width="1156">
 <div style=""></div>
-		<img id="g-Impacts-of-global-warming-on-glaciers-and-sea-level-rise-Artboard_1-img" class="g-Impacts-of-global-warming-on-glaciers-and-sea-level-rise-Artboard_1-img g-aiImg" alt="" src="./assets/images/svg/ai2html-output/Impacts-of-global-warming-on-glaciers-and-sea-level-rise-Artboard_1.png"/>
+		<img id="g-Impacts-of-global-warming-on-glaciers-and-sea-level-rise-Artboard_1-img" class="g-Impacts-of-global-warming-on-glaciers-and-sea-level-rise-Artboard_1-img g-aiImg" alt="" src="/assets/images/svg/ai2html-output/Impacts-of-global-warming-on-glaciers-and-sea-level-rise-Artboard_1.png"/>
 <!-- Generator: Adobe Illustrator 27.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg class="g-Impacts-of-global-warming-on-glaciers-and-sea-level-rise-Artboard_1-interactive-img g-aiImg" version="1.2" baseProfile="tiny" id="g-Impacts-of-global-warming-on-glaciers-and-sea-level-rise-Artboard_1-interactive-img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-	 x="0px" y="0px" viewBox="0 0 1280 720" overflow="visible" xml:space="preserve">
+	 x="0px" y="0px" viewBox="0 0 1151 720" overflow="visible" xml:space="preserve">
 <g>
 	<g id="path-1-3" data-name="path-1-3">
 		<path fill="#5555DD" d="M346.446,545.667c0,1.121-0.06,2.24-0.181,3.356c-0.12,1.116-0.3,2.224-0.54,3.323
@@ -1315,7 +1389,7 @@
 			c0.389,0.435,0.754,0.886,1.095,1.353c0.341,0.468,0.656,0.949,0.945,1.445c0.289,0.496,0.551,1.004,0.786,1.523
 			c0.235,0.52,0.441,1.048,0.62,1.587s0.327,1.083,0.447,1.634c0.12,0.552,0.21,1.107,0.27,1.667
 			C833.038,265.999,833.068,266.56,833.068,267.122z"/>
-		<path fill="none" stroke="#FFFFFF" stroke-width="1.5013" d="M815.383,207.122h-4.309h8.619H815.383v118.517h-4.309h8.619
+		<path fill="none" stroke="#000000" stroke-width="1.5013" d="M815.383,207.122h-4.309h8.619H815.383v118.517h-4.309h8.619
 			 M729.543,266.38v-4.317v8.633V266.38h171.68v-4.317v8.633"/>
 	</g>
 	<g id="path-1-1" data-name="path-1-1">
@@ -1363,7 +1437,7 @@
 			c0.556,0.619,1.078,1.261,1.565,1.927c0.487,0.666,0.937,1.352,1.351,2.058c0.413,0.706,0.788,1.429,1.123,2.169
 			c0.336,0.74,0.631,1.493,0.885,2.259c0.255,0.766,0.467,1.542,0.638,2.327c0.171,0.785,0.3,1.576,0.385,2.373
 			C664.922,358.556,664.965,359.355,664.965,360.155z"/>
-		<path fill="none" stroke="#FFFFFF" stroke-width="1.5013" d="M639.064,320.481h-2.706h5.411H639.064v82.203h-2.706h5.411
+		<path fill="none" stroke="#000000" stroke-width="1.5013" d="M639.064,320.481h-2.706h5.411H639.064v82.203h-2.706h5.411
 			 M585.17,361.583v-2.994v5.988V361.583h107.788v-2.994v5.988"/>
 	</g>
 </g>
@@ -1372,109 +1446,109 @@
 </style>
 </svg>
 
-		<div id="g-ai0-1" class="g-text-case-1 g-aiAbs g-aiPointText" style="top:18.0029%;margin-top:-41.6px;left:54.5439%;margin-left:-328px;width:656px;">
+		<div id="g-ai0-1" class="g-text-case-1 g-aiAbs g-aiPointText" style="top:18.0029%;margin-top:-41.6px;left:60.657%;margin-left:-328px;width:656px;">
 			<p class="g-pstyle0">Impacts of Different Degrees of Global</p>
 			<p class="g-pstyle0">Warming by Year 2100</p>
 		</div>
-		<div id="g-ai0-2" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:25.6322%;margin-top:-18.6px;left:19.2617%;width:66px;">
+		<div id="g-ai0-2" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:25.6322%;margin-top:-18.6px;left:21.4205%;width:66px;">
 			<p class="g-pstyle1">200</p>
 		</div>
-		<div id="g-ai0-3" class="g-tag-number g-aiAbs g-aiPointText" style="top:29.2306%;margin-top:-19.5px;left:25.3279%;width:339px;">
+		<div id="g-ai0-3" class="g-tag-number g-aiAbs g-aiPointText" style="top:29.2306%;margin-top:-19.5px;left:28.1666%;width:339px;">
 			<p class="g-pstyle2"><span class="g-cstyle0">Red rings</span><span class="g-cstyle1"> </span>show number</p>
 		</div>
-		<div id="g-ai0-4" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:30.3257%;margin-top:-21.3px;left:35.1753%;width:30px;">
+		<div id="g-ai0-4" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:30.3257%;margin-top:-21.3px;left:39.1176%;width:30px;">
 			<p class="g-pstyle3"> </p>
 		</div>
-		<div id="g-ai0-5" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:30.3257%;margin-top:-21.3px;left:41.2389%;width:30px;">
+		<div id="g-ai0-5" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:30.3257%;margin-top:-21.3px;left:45.8608%;width:30px;">
 			<p class="g-pstyle3"> </p>
 		</div>
-		<div id="g-ai0-6" class="g-tag-number g-aiAbs g-aiPointText" style="top:34.2306%;margin-top:-19.5px;left:25.2498%;width:302px;">
-			<p class="g-pstyle4"><span class="g-cstyle2">of </span>glaciers from 2015</p>
+		<div id="g-ai0-6" class="g-tag-number g-aiAbs g-aiPointText" style="top:34.2306%;margin-top:-19.5px;left:28.0797%;width:302px;">
+			<p class="g-pstyle4"><span class="g-cstyle2">of</span><span class="g-cstyle3"> </span>glaciers from 2015</p>
 		</div>
-		<div id="g-ai0-7" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:35.1868%;margin-top:-21.3px;left:27.181%;width:30px;">
+		<div id="g-ai0-7" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:35.1868%;margin-top:-21.3px;left:30.2273%;width:30px;">
 			<p class="g-pstyle3"> </p>
 		</div>
-		<div id="g-ai0-8" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:35.1868%;margin-top:-21.3px;left:35.8022%;width:30px;">
+		<div id="g-ai0-8" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:35.1868%;margin-top:-21.3px;left:39.8148%;width:30px;">
 			<p class="g-pstyle5"> </p>
 		</div>
-		<div id="g-ai0-9" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:35.1868%;margin-top:-21.3px;left:41.082%;width:30px;">
+		<div id="g-ai0-9" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:35.1868%;margin-top:-21.3px;left:45.6863%;width:30px;">
 			<p class="g-pstyle5"> </p>
 		</div>
-		<div id="g-ai0-10" class="g-text-case-1 g-aiAbs g-aiPointText" style="transform: matrix(0,-1,1,0,0,0);transform-origin: 50% 52.4105745124119%;-webkit-transform: matrix(0,-1,1,0,0,0);-webkit-transform-origin: 50% 52.4105745124119%;-ms-transform: matrix(0,-1,1,0,0,0);-ms-transform-origin: 50% 52.4105745124119%;top:49.4086%;margin-top:-20.7px;left:15.9721%;margin-left:-129px;width:258px;">
+		<div id="g-ai0-10" class="g-text-case-1 g-aiAbs g-aiPointText" style="transform: matrix(0,-1,1,0,0,0);transform-origin: 50% 52.4105745124119%;-webkit-transform: matrix(0,-1,1,0,0,0);-webkit-transform-origin: 50% 52.4105745124119%;-ms-transform: matrix(0,-1,1,0,0,0);-ms-transform-origin: 50% 52.4105745124119%;top:49.4086%;margin-top:-20.7px;left:17.7622%;margin-left:-129px;width:258px;">
 			<p class="g-pstyle6">Sea level rise (mm)</p>
 		</div>
-		<div id="g-ai0-11" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:38.1322%;margin-top:-18.6px;left:19.2617%;width:66px;">
+		<div id="g-ai0-11" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:38.1322%;margin-top:-18.6px;left:21.4205%;width:66px;">
 			<p class="g-pstyle1">150</p>
 		</div>
-		<div id="g-ai0-12" class="g-tag-number g-aiAbs g-aiPointText" style="top:39.3695%;margin-top:-19.5px;left:25.3279%;width:259px;">
-			<p class="g-pstyle7">to be <span class="g-cstyle0">lost</span> by 2100</p>
+		<div id="g-ai0-12" class="g-tag-number g-aiAbs g-aiPointText" style="top:39.3695%;margin-top:-19.5px;left:28.1666%;width:259px;">
+			<p class="g-pstyle2">to be<span class="g-cstyle3"> </span><span class="g-cstyle0">lost</span><span class="g-cstyle3"> </span>by 2100</p>
 		</div>
-		<div id="g-ai0-13" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:39.7702%;margin-top:-21.3px;left:27.181%;width:30px;">
+		<div id="g-ai0-13" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:39.7702%;margin-top:-21.3px;left:30.2273%;width:30px;">
 			<p class="g-pstyle3"> </p>
 		</div>
-		<div id="g-ai0-14" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:39.7702%;margin-top:-21.3px;left:30.4036%;width:30px;">
+		<div id="g-ai0-14" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:39.7702%;margin-top:-21.3px;left:33.8112%;width:30px;">
 			<p class="g-pstyle3"> </p>
 		</div>
-		<div id="g-ai0-15" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:39.7702%;margin-top:-21.3px;left:34.6443%;width:30px;">
+		<div id="g-ai0-15" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:39.7702%;margin-top:-21.3px;left:38.5271%;width:30px;">
 			<p class="g-pstyle3"> </p>
 		</div>
-		<div id="g-ai0-16" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:39.7702%;margin-top:-21.3px;left:37.7354%;width:30px;">
+		<div id="g-ai0-16" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:39.7702%;margin-top:-21.3px;left:41.9647%;width:30px;">
 			<p class="g-pstyle3"> </p>
 		</div>
-		<div id="g-ai0-17" class="g-tag-circle-2 g-aiAbs g-aiPointText" style="top:43.9943%;margin-top:-15.8px;left:67.7274%;width:138px;">
-			<p class="g-pstyle8">83&plusmn;7% loss</p>
+		<div id="g-ai0-17" class="g-tag-circle-2 g-aiAbs g-aiPointText" style="top:44.411%;margin-top:-15.8px;left:72.1903%;width:338px;">
+			<p class="g-pstyle7"><span class="g-cstyle0">83&plusmn;7% loss</span><span class="g-cstyle2">,</span><span class="g-cstyle0"> </span>sea levels: 150mm</p>
 		</div>
-		<div id="g-ai0-18" class="g-tag-circle-2 g-aiAbs g-aiPointText" style="top:48.6591%;margin-top:-21.3px;left:58.9388%;width:291px;">
-			<p class="g-pstyle9">4 &deg;C global warming</p>
+		<div id="g-ai0-18" class="g-tag-circle-2 g-aiAbs g-aiPointText" style="top:48.6591%;margin-top:-21.3px;left:65.5445%;width:291px;">
+			<p class="g-pstyle8">4 &deg;C global warming</p>
 		</div>
-		<div id="g-ai0-19" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:50.7712%;margin-top:-18.6px;left:19.2617%;width:66px;">
+		<div id="g-ai0-19" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:50.7712%;margin-top:-18.6px;left:21.4205%;width:66px;">
 			<p class="g-pstyle1">100</p>
 		</div>
-		<div id="g-ai0-20" class="g-tag-circle-1 g-aiAbs g-aiPointText" style="top:57.6054%;margin-top:-15.8px;left:53.0798%;width:138px;">
-			<p class="g-pstyle8">49&plusmn;9% loss</p>
+		<div id="g-ai0-20" class="g-tag-circle-1 g-aiAbs g-aiPointText" style="top:57.6054%;margin-top:-15.8px;left:59.0288%;width:471px;">
+			<p class="g-pstyle9">49&plusmn;9% glacier mass loss<span class="g-cstyle2">,</span> <span class="g-cstyle4">sea levels: 100mm</span></p>
 		</div>
-		<div id="g-ai0-21" class="g-tag-circle-1 g-aiAbs g-aiPointText" style="top:61.7146%;margin-top:-21.3px;left:45.7561%;width:316px;">
-			<p class="g-pstyle9">1.5 &deg;C global warming</p>
+		<div id="g-ai0-21" class="g-tag-circle-1 g-aiAbs g-aiPointText" style="top:61.7146%;margin-top:-21.3px;left:50.8843%;width:316px;">
+			<p class="g-pstyle8">1.5 &deg;C global warming</p>
 		</div>
-		<div id="g-ai0-22" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:63.2711%;margin-top:-18.6px;left:19.832%;width:51px;">
+		<div id="g-ai0-22" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:63.2711%;margin-top:-18.6px;left:22.0547%;width:51px;">
 			<p class="g-pstyle1">50</p>
 		</div>
-		<div id="g-ai0-23" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:70.0767%;margin-top:-18.6px;left:20.8812%;width:37px;">
+		<div id="g-ai0-23" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:70.0767%;margin-top:-18.6px;left:23.2215%;width:37px;">
 			<p class="g-pstyle1">0</p>
 		</div>
-		<div id="g-ai0-24" class="g-tag-number g-aiAbs g-aiPointText" style="top:76.3889%;margin-top:-18px;left:22.2325%;width:68px;">
+		<div id="g-ai0-24" class="g-tag-number g-aiAbs g-aiPointText" style="top:76.3889%;margin-top:-18px;left:24.7243%;width:68px;">
 			<p class="g-pstyle10">2015</p>
 		</div>
-		<div id="g-ai0-25" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:79.3823%;margin-top:-18.6px;left:81.264%;width:75px;">
+		<div id="g-ai0-25" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:79.3823%;margin-top:-18.6px;left:90.3717%;width:75px;">
 			<p class="g-pstyle1">60%</p>
 		</div>
-		<div id="g-ai0-26" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:79.3823%;margin-top:-18.6px;left:32.2788%;width:75px;">
+		<div id="g-ai0-26" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:79.3823%;margin-top:-18.6px;left:35.8965%;width:75px;">
 			<p class="g-pstyle1">10%</p>
 		</div>
-		<div id="g-ai0-27" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:79.3823%;margin-top:-18.6px;left:42.0046%;width:75px;">
+		<div id="g-ai0-27" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:79.3823%;margin-top:-18.6px;left:46.7123%;width:75px;">
 			<p class="g-pstyle1">20%</p>
 		</div>
-		<div id="g-ai0-28" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:79.3823%;margin-top:-18.6px;left:51.7307%;width:75px;">
+		<div id="g-ai0-28" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:79.3823%;margin-top:-18.6px;left:57.5284%;width:75px;">
 			<p class="g-pstyle1">30%</p>
 		</div>
-		<div id="g-ai0-29" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:79.3823%;margin-top:-18.6px;left:61.4564%;width:75px;">
+		<div id="g-ai0-29" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:79.3823%;margin-top:-18.6px;left:68.3442%;width:75px;">
 			<p class="g-pstyle1">40%</p>
 		</div>
-		<div id="g-ai0-30" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:79.3823%;margin-top:-18.6px;left:71.1823%;width:75px;">
+		<div id="g-ai0-30" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:79.3823%;margin-top:-18.6px;left:79.1601%;width:75px;">
 			<p class="g-pstyle1">50%</p>
 		</div>
-		<div id="g-ai0-31" class="g-text-case-1 g-aiAbs" style="top:83.8889%;left:28.8247%;width:52.1094%;">
+		<div id="g-ai0-31" class="g-text-case-1 g-aiAbs" style="top:83.8889%;left:32.0553%;width:57.9496%;">
 			<p class="g-pstyle11">Global glacier mass loss from 2015 to 2100</p>
 		</div>
-		<div id="g-ai0-32" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:96.3666%;margin-top:-10.8px;left:46.1075%;width:444px;">
-			<p class="g-pstyle12">Source: FAO Temperature Change &bull; Graphic by Zhaozhou Dai</p>
+		<div id="g-ai0-32" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:96.3666%;margin-top:-10.8px;left:51.2751%;width:444px;">
+			<p class="g-pstyle12">Source: <a href="https://commons.wikimedia.org/w/index.php?curid=127526288">FAO Temperature Change</a> &bull; Graphic by Zhaozhou Dai</p>
 		</div>
 	</div>
 
 	<!-- Artboard: Artboard_2 -->
-	<div id="g-Impacts-of-global-warming-on-glaciers-and-sea-level-rise-Artboard_2" class="g-artboard" style="max-width: 865px;max-height: 585px" data-aspect-ratio="1.479" data-min-width="0" data-max-width="1279">
+	<div id="g-Impacts-of-global-warming-on-glaciers-and-sea-level-rise-Artboard_2" class="g-artboard" style="max-width: 865px;max-height: 585px" data-aspect-ratio="1.479" data-min-width="0" data-max-width="1150">
 <div style="padding: 0 0 67.6301% 0;"></div>
-		<img id="g-Impacts-of-global-warming-on-glaciers-and-sea-level-rise-Artboard_2-img" class="g-Impacts-of-global-warming-on-glaciers-and-sea-level-rise-Artboard_2-img g-aiImg" alt="" src="./assets/images/svg/ai2html-output/Impacts-of-global-warming-on-glaciers-and-sea-level-rise-Artboard_2.png"/>
+		<img id="g-Impacts-of-global-warming-on-glaciers-and-sea-level-rise-Artboard_2-img" class="g-Impacts-of-global-warming-on-glaciers-and-sea-level-rise-Artboard_2-img g-aiImg" alt="" src="/assets/images/svg/ai2html-output/Impacts-of-global-warming-on-glaciers-and-sea-level-rise-Artboard_2.png"/>
 <!-- Generator: Adobe Illustrator 27.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg class="g-Impacts-of-global-warming-on-glaciers-and-sea-level-rise-Artboard_2-interactive-img g-aiImg" version="1.2" baseProfile="tiny" id="g-Impacts-of-global-warming-on-glaciers-and-sea-level-rise-Artboard_2-interactive-img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
 	 x="0px" y="0px" viewBox="0 0 865 585" overflow="visible" xml:space="preserve">
@@ -1582,7 +1656,7 @@
 			c0.178,0.411,0.335,0.829,0.47,1.254c0.135,0.425,0.248,0.856,0.339,1.292c0.091,0.436,0.159,0.875,0.205,1.317
 			S549.908,221.045,549.908,221.49z"/>
 		<rect x="467.172" y="24.571" fill="none" width="356.393" height="247.363"/>
-		<path fill="none" stroke="#FFFFFF" stroke-width="1.5013" d="M536.485,174.071h-3.271h6.542H536.485v93.663h-3.271h6.542
+		<path fill="none" stroke="#000000" stroke-width="1.5013" d="M536.485,174.071h-3.271h6.542H536.485v93.663h-3.271h6.542
 			 M471.328,220.903v-3.411v6.823V220.903h130.313v-3.411v6.823"/>
 	</g>
 	<g id="path-2-1" data-name="path-2-1">
@@ -1629,7 +1703,7 @@
 			c0.37,0.526,0.712,1.068,1.025,1.626c0.314,0.558,0.598,1.129,0.853,1.714c0.255,0.585,0.479,1.18,0.672,1.785
 			c0.193,0.605,0.355,1.219,0.485,1.839c0.13,0.621,0.227,1.246,0.293,1.875C415.274,302.067,415.307,302.698,415.307,303.331z"/>
 		<rect x="352.13" y="168.284" fill="none" width="223.759" height="171.57"/>
-		<path fill="none" stroke="#FFFFFF" stroke-width="1.5013" d="M395.647,271.977h-2.054h4.107H395.647v64.964h-2.054h4.107
+		<path fill="none" stroke="#000000" stroke-width="1.5013" d="M395.647,271.977h-2.054h4.107H395.647v64.964h-2.054h4.107
 			 M354.739,304.459v-2.366v4.732V304.459h81.816v-2.366v4.732"/>
 	</g>
 </g>
@@ -1655,7 +1729,7 @@
 			<p class="g-pstyle3"> </p>
 		</div>
 		<div id="g-ai1-6" class="g-tag-number g-aiAbs g-aiPointText" style="top:34.7699%;margin-top:-15.4px;left:18.5045%;width:235px;">
-			<p class="g-pstyle4"><span class="g-cstyle2">of </span>glaciers from 2015</p>
+			<p class="g-pstyle4"><span class="g-cstyle2">of</span><span class="g-cstyle3"> </span>glaciers from 2015</p>
 		</div>
 		<div id="g-ai1-7" class="g-text-case-1 g-aiAbs g-aiPointText" style="transform: matrix(0,-1,1,0,0,0);transform-origin: 50% 52.7158922130278%;-webkit-transform: matrix(0,-1,1,0,0,0);-webkit-transform-origin: 50% 52.7158922130278%;-ms-transform: matrix(0,-1,1,0,0,0);-ms-transform-origin: 50% 52.7158922130278%;top:48.959%;margin-top:-18.4px;left:7.5664%;margin-left:-106.5px;width:213px;">
 			<p class="g-pstyle5">Sea level rise (mm)</p>
@@ -1673,7 +1747,7 @@
 			<p class="g-pstyle1">150</p>
 		</div>
 		<div id="g-ai1-12" class="g-tag-number g-aiAbs g-aiPointText" style="top:39.7271%;margin-top:-15.4px;left:18.5923%;width:202px;">
-			<p class="g-pstyle7">to be <span class="g-cstyle0">lost</span> by 2100</p>
+			<p class="g-pstyle2">to be<span class="g-cstyle3"> </span><span class="g-cstyle0">lost</span><span class="g-cstyle3"> </span>by 2100</p>
 		</div>
 		<div id="g-ai1-13" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:40.2561%;margin-top:-16.5px;left:20.6737%;width:28px;">
 			<p class="g-pstyle3"> </p>
@@ -1684,20 +1758,20 @@
 		<div id="g-ai1-15" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:40.2561%;margin-top:-16.5px;left:29.0565%;width:28px;">
 			<p class="g-pstyle3"> </p>
 		</div>
-		<div id="g-ai1-16" class="g-tag-circle-2 g-aiAbs g-aiPointText" style="top:44.3374%;margin-top:-12.4px;left:66.2158%;width:110px;">
-			<p class="g-pstyle8">83&plusmn;7% loss</p>
+		<div id="g-ai1-16" class="g-tag-circle-2 g-aiAbs g-aiPointText" style="top:44.8502%;margin-top:-12.4px;left:65.1753%;width:317px;">
+			<p class="g-pstyle7">83&plusmn;7% glacier loss<span class="g-cstyle2">,</span> <span class="g-cstyle4">sea levels: 150mm</span></p>
 		</div>
 		<div id="g-ai1-17" class="g-tag-circle-2 g-aiAbs g-aiPointText" style="top:48.8031%;margin-top:-16.5px;left:56.3446%;width:226px;">
-			<p class="g-pstyle9">4 &deg;C global warming</p>
+			<p class="g-pstyle8">4 &deg;C global warming</p>
 		</div>
 		<div id="g-ai1-18" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:50.8865%;margin-top:-14.7px;left:11.7788%;width:55px;">
 			<p class="g-pstyle1">100</p>
 		</div>
-		<div id="g-ai1-19" class="g-tag-circle-1 g-aiAbs g-aiPointText" style="top:57.4997%;margin-top:-12.4px;left:49.7636%;width:110px;">
-			<p class="g-pstyle8">49&plusmn;9% loss</p>
+		<div id="g-ai1-19" class="g-tag-circle-1 g-aiAbs g-aiPointText" style="top:57.4997%;margin-top:-12.4px;left:49.7636%;width:363px;">
+			<p class="g-pstyle7">49&plusmn;9% glacier mass loss<span class="g-cstyle2">,</span> <span class="g-cstyle4">sea levels: 100mm</span></p>
 		</div>
 		<div id="g-ai1-20" class="g-tag-circle-1 g-aiAbs g-aiPointText" style="top:61.6236%;margin-top:-16.5px;left:41.5375%;width:245px;">
-			<p class="g-pstyle9">1.5 &deg;C global warming</p>
+			<p class="g-pstyle8">1.5 &deg;C global warming</p>
 		</div>
 		<div id="g-ai1-21" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:63.0233%;margin-top:-14.7px;left:12.4193%;width:44px;">
 			<p class="g-pstyle1">50</p>
@@ -1706,7 +1780,7 @@
 			<p class="g-pstyle1">0</p>
 		</div>
 		<div id="g-ai1-23" class="g-tag-number g-aiAbs g-aiPointText" style="top:75.7691%;margin-top:-14.2px;left:15.1156%;width:57px;">
-			<p class="g-pstyle10">2015</p>
+			<p class="g-pstyle9">2015</p>
 		</div>
 		<div id="g-ai1-24" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:78.5788%;margin-top:-14.7px;left:81.4204%;width:62px;">
 			<p class="g-pstyle1">60%</p>
@@ -1727,23 +1801,287 @@
 			<p class="g-pstyle1">50%</p>
 		</div>
 		<div id="g-ai1-30" class="g-text-case-1 g-aiAbs" style="top:83.7607%;left:26.7974%;width:58.4971%;">
-			<p class="g-pstyle11">Global glacier mass loss from 2015 to 2100</p>
+			<p class="g-pstyle10">Global glacier mass loss from 2015 to 2100</p>
 		</div>
 		<div id="g-ai1-31" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:94.8446%;margin-top:-7.8px;left:32.6626%;width:315px;">
-			<p class="g-pstyle12">Source: FAO Temperature Change &bull; Graphic by Zhaozhou Dai</p>
+			<p class="g-pstyle11">Source: <a href="https://commons.wikimedia.org/w/index.php?curid=127526288">FAO Temperature Change</a> &bull; Graphic by Zhaozhou Dai</p>
 		</div>
 	</div>
 
-<!-- Custom HTML
-<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.3.0/d3.min.js"></script>
+	<!-- Artboard: Artboard_4 -->
+	<div id="g-Impacts-of-global-warming-on-glaciers-and-sea-level-rise-Artboard_4" class="g-artboard" style="width:1157px; height:726.999999999999px;" data-aspect-ratio="1.591" data-min-width="1157">
+<div style=""></div>
+		<img id="g-Impacts-of-global-warming-on-glaciers-and-sea-level-rise-Artboard_4-img" class="g-Impacts-of-global-warming-on-glaciers-and-sea-level-rise-Artboard_4-img g-aiImg" alt="" src="./assets/images/svg/ai2html-output/Impacts-of-global-warming-on-glaciers-and-sea-level-rise-Artboard_4.png"/>
+<!-- Generator: Adobe Illustrator 27.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg class="g-Impacts-of-global-warming-on-glaciers-and-sea-level-rise-Artboard_4-interactive-img g-aiImg" version="1.2" baseProfile="tiny" id="g-Impacts-of-global-warming-on-glaciers-and-sea-level-rise-Artboard_4-interactive-img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+	 x="0px" y="0px" viewBox="0 0 1157.043 727" overflow="visible" xml:space="preserve">
+<g>
+	<g id="path-1-3-2" data-name="path-1-3">
+		<path fill="#5555DD" d="M350.489,549.037c0,1.121-0.06,2.24-0.181,3.356c-0.12,1.116-0.3,2.224-0.54,3.323
+			c-0.24,1.1-0.538,2.186-0.894,3.259c-0.356,1.073-0.77,2.128-1.24,3.163c-0.47,1.036-0.994,2.048-1.573,3.037
+			c-0.579,0.989-1.21,1.95-1.892,2.882c-0.682,0.932-1.413,1.832-2.192,2.699c-0.779,0.867-1.603,1.697-2.471,2.49
+			c-0.868,0.793-1.777,1.545-2.727,2.256c-0.949,0.711-1.935,1.378-2.956,2.001c-1.021,0.623-2.073,1.199-3.156,1.727
+			c-1.083,0.529-2.192,1.007-3.327,1.436c-1.135,0.429-2.289,0.806-3.465,1.132s-2.365,0.598-3.57,0.816
+			c-1.204,0.219-2.418,0.383-3.64,0.493c-1.222,0.11-2.447,0.165-3.675,0.165s-2.453-0.055-3.675-0.165
+			c-1.222-0.11-2.436-0.274-3.64-0.493c-1.204-0.219-2.394-0.491-3.57-0.816c-1.175-0.326-2.33-0.703-3.465-1.132
+			c-1.135-0.429-2.243-0.908-3.327-1.436c-1.083-0.529-2.135-1.104-3.156-1.727c-1.021-0.623-2.006-1.29-2.956-2.001
+			c-0.949-0.711-1.858-1.463-2.727-2.256c-0.868-0.793-1.692-1.623-2.471-2.49c-0.779-0.867-1.51-1.766-2.192-2.699
+			c-0.682-0.932-1.313-1.893-1.892-2.882c-0.579-0.989-1.103-2.001-1.573-3.037c-0.47-1.036-0.883-2.09-1.24-3.163
+			c-0.356-1.073-0.655-2.159-0.894-3.259c-0.24-1.1-0.42-2.208-0.54-3.323c-0.12-1.116-0.181-2.234-0.181-3.356
+			s0.06-2.24,0.181-3.356c0.12-1.116,0.3-2.224,0.54-3.323s0.538-2.186,0.894-3.259c0.357-1.073,0.77-2.128,1.24-3.163
+			s0.994-2.048,1.573-3.037c0.579-0.989,1.209-1.949,1.892-2.882c0.682-0.932,1.413-1.832,2.192-2.699
+			c0.779-0.867,1.603-1.697,2.471-2.489c0.868-0.793,1.777-1.545,2.727-2.256c0.949-0.711,1.935-1.378,2.956-2.001
+			s2.073-1.199,3.156-1.727c1.083-0.529,2.192-1.007,3.327-1.436c1.135-0.429,2.289-0.806,3.465-1.132
+			c1.175-0.326,2.365-0.598,3.57-0.816c1.204-0.219,2.418-0.383,3.64-0.493c1.222-0.11,2.447-0.165,3.675-0.165
+			s2.453,0.055,3.675,0.165c1.222,0.11,2.435,0.274,3.64,0.493c1.204,0.219,2.394,0.491,3.57,0.816
+			c1.175,0.325,2.33,0.703,3.465,1.132c1.135,0.429,2.243,0.908,3.327,1.437s2.135,1.104,3.156,1.727s2.006,1.29,2.956,2.001
+			c0.949,0.711,1.858,1.464,2.727,2.256s1.692,1.623,2.471,2.489c0.779,0.867,1.51,1.766,2.192,2.699
+			c0.682,0.932,1.313,1.893,1.892,2.882c0.579,0.989,1.103,2.001,1.573,3.037c0.47,1.036,0.883,2.09,1.24,3.163
+			c0.356,1.073,0.655,2.159,0.894,3.259s0.42,2.208,0.54,3.323C350.429,546.797,350.489,547.915,350.489,549.037z"/>
+		<path fill="#5555DD" d="M987.948,188.418l6.355-3.329l1.101,1.729l-6.355,3.329 M962.529,201.734l6.355-3.329l1.101,1.729
+			l-6.355,3.329 M937.109,215.05l6.355-3.329l1.101,1.729l-6.355,3.329 M911.69,228.367l6.355-3.329l1.101,1.729l-6.355,3.329
+			 M886.271,241.683l6.355-3.329l1.101,1.729l-6.355,3.329 M860.851,254.999l6.355-3.329l1.101,1.729l-6.355,3.329 M835.432,268.315
+			l6.355-3.329l1.101,1.729l-6.355,3.329 M810.012,281.632l6.355-3.329l1.101,1.729l-6.355,3.329 M784.593,294.948l6.355-3.329
+			l1.101,1.729l-6.355,3.329 M759.174,308.264l6.355-3.329l1.101,1.729l-6.355,3.329 M733.754,321.58l6.355-3.329l1.101,1.729
+			l-6.355,3.329 M708.335,334.897l6.355-3.329l1.101,1.729l-6.355,3.329 M682.915,348.213l6.355-3.329l1.101,1.729l-6.355,3.329
+			 M657.496,361.529l6.355-3.329l1.101,1.729l-6.355,3.329 M632.076,374.846l6.355-3.329l1.101,1.729l-6.355,3.329 M606.657,388.162
+			l6.355-3.329l1.101,1.729l-6.355,3.329 M581.238,401.478l6.355-3.329l1.101,1.729l-6.355,3.329 M555.818,414.794l6.355-3.329
+			l1.101,1.729l-6.355,3.329 M530.399,428.111l6.355-3.329l1.101,1.729l-6.355,3.329 M504.979,441.427l6.355-3.329l1.101,1.729
+			l-6.355,3.329 M479.56,454.743l6.355-3.329l1.101,1.729l-6.355,3.329 M454.141,468.059l6.355-3.329l1.101,1.729l-6.355,3.329
+			 M428.721,481.376l6.355-3.329l1.101,1.729l-6.355,3.329 M403.302,494.692l6.355-3.329l1.101,1.729l-6.355,3.329 M377.882,508.008
+			l6.355-3.329l1.101,1.729l-6.355,3.329 M352.463,521.324l6.355-3.329l1.101,1.729l-6.355,3.329 M327.043,534.641l6.355-3.329
+			l1.101,1.729l-6.355,3.329"/>
+		<path fill="none" stroke="#5555DD" stroke-width="0.5004" d="M350.489,549.037c0,1.121-0.06,2.24-0.181,3.356
+			c-0.12,1.116-0.3,2.224-0.54,3.323c-0.24,1.1-0.538,2.186-0.894,3.259c-0.356,1.073-0.77,2.128-1.24,3.163
+			c-0.47,1.036-0.994,2.048-1.573,3.037c-0.579,0.989-1.21,1.95-1.892,2.882c-0.682,0.932-1.413,1.832-2.192,2.699
+			c-0.779,0.867-1.603,1.697-2.471,2.49c-0.868,0.793-1.777,1.545-2.727,2.256c-0.949,0.711-1.935,1.378-2.956,2.001
+			c-1.021,0.623-2.073,1.199-3.156,1.727c-1.083,0.529-2.192,1.007-3.327,1.436c-1.135,0.429-2.289,0.806-3.465,1.132
+			s-2.365,0.598-3.57,0.816c-1.204,0.219-2.418,0.383-3.64,0.493c-1.222,0.11-2.447,0.165-3.675,0.165s-2.453-0.055-3.675-0.165
+			c-1.222-0.11-2.436-0.274-3.64-0.493c-1.204-0.219-2.394-0.491-3.57-0.816c-1.175-0.326-2.33-0.703-3.465-1.132
+			c-1.135-0.429-2.243-0.908-3.327-1.436c-1.083-0.529-2.135-1.104-3.156-1.727c-1.021-0.623-2.006-1.29-2.956-2.001
+			c-0.949-0.711-1.858-1.463-2.727-2.256c-0.868-0.793-1.692-1.623-2.471-2.49c-0.779-0.867-1.51-1.766-2.192-2.699
+			c-0.682-0.932-1.313-1.893-1.892-2.882c-0.579-0.989-1.103-2.001-1.573-3.037c-0.47-1.036-0.883-2.09-1.24-3.163
+			c-0.356-1.073-0.655-2.159-0.894-3.259c-0.24-1.1-0.42-2.208-0.54-3.323c-0.12-1.116-0.181-2.234-0.181-3.356
+			s0.06-2.24,0.181-3.356c0.12-1.116,0.3-2.224,0.54-3.323s0.538-2.186,0.894-3.259c0.357-1.073,0.77-2.128,1.24-3.163
+			s0.994-2.048,1.573-3.037c0.579-0.989,1.209-1.949,1.892-2.882c0.682-0.932,1.413-1.832,2.192-2.699
+			c0.779-0.867,1.603-1.697,2.471-2.489c0.868-0.793,1.777-1.545,2.727-2.256c0.949-0.711,1.935-1.378,2.956-2.001
+			s2.073-1.199,3.156-1.727c1.083-0.529,2.192-1.007,3.327-1.436c1.135-0.429,2.289-0.806,3.465-1.132
+			c1.175-0.326,2.365-0.598,3.57-0.816c1.204-0.219,2.418-0.383,3.64-0.493c1.222-0.11,2.447-0.165,3.675-0.165
+			s2.453,0.055,3.675,0.165c1.222,0.11,2.435,0.274,3.64,0.493c1.204,0.219,2.394,0.491,3.57,0.816
+			c1.175,0.325,2.33,0.703,3.465,1.132c1.135,0.429,2.243,0.908,3.327,1.437s2.135,1.104,3.156,1.727s2.006,1.29,2.956,2.001
+			c0.949,0.711,1.858,1.464,2.727,2.256s1.692,1.623,2.471,2.489c0.779,0.867,1.51,1.766,2.192,2.699
+			c0.682,0.932,1.313,1.893,1.892,2.882c0.579,0.989,1.103,2.001,1.573,3.037c0.47,1.036,0.883,2.09,1.24,3.163
+			c0.356,1.073,0.655,2.159,0.894,3.259s0.42,2.208,0.54,3.323C350.429,546.797,350.489,547.915,350.489,549.037z"/>
+	</g>
+	<g id="path-1-2-2" data-name="path-1-2">
+		<path fill="#DD5555" d="M856.015,270.292c0,1.121-0.06,2.24-0.181,3.356c-0.12,1.116-0.3,2.224-0.54,3.323
+			c-0.24,1.1-0.538,2.186-0.894,3.259c-0.357,1.073-0.77,2.127-1.24,3.163c-0.47,1.036-0.994,2.048-1.573,3.037
+			c-0.579,0.989-1.21,1.949-1.892,2.882c-0.682,0.932-1.413,1.832-2.192,2.699c-0.779,0.867-1.603,1.697-2.471,2.49
+			c-0.868,0.793-1.777,1.545-2.727,2.256s-1.935,1.378-2.956,2.001c-1.021,0.623-2.073,1.199-3.156,1.727
+			c-1.083,0.529-2.192,1.007-3.327,1.437c-1.135,0.429-2.289,0.806-3.465,1.132c-1.175,0.325-2.365,0.598-3.57,0.816
+			c-1.204,0.219-2.418,0.383-3.64,0.493c-1.222,0.11-2.447,0.165-3.675,0.165s-2.453-0.055-3.675-0.165
+			c-1.222-0.11-2.436-0.274-3.64-0.493c-1.204-0.219-2.394-0.491-3.57-0.816c-1.175-0.326-2.33-0.703-3.465-1.132
+			c-1.135-0.429-2.243-0.908-3.326-1.437c-1.083-0.529-2.135-1.104-3.156-1.727c-1.021-0.623-2.006-1.29-2.956-2.001
+			c-0.949-0.711-1.858-1.463-2.727-2.256c-0.868-0.793-1.692-1.623-2.471-2.49c-0.779-0.867-1.51-1.766-2.192-2.699
+			c-0.682-0.932-1.313-1.893-1.892-2.882c-0.579-0.989-1.103-2.001-1.573-3.037c-0.47-1.036-0.883-2.09-1.24-3.163
+			c-0.357-1.073-0.655-2.159-0.894-3.259c-0.24-1.1-0.419-2.208-0.54-3.323c-0.12-1.116-0.181-2.234-0.181-3.356
+			c0-1.121,0.06-2.24,0.181-3.356c0.12-1.116,0.3-2.224,0.54-3.323c0.24-1.1,0.538-2.186,0.894-3.259
+			c0.357-1.073,0.77-2.127,1.24-3.163c0.47-1.036,0.995-2.048,1.573-3.037c0.579-0.989,1.209-1.95,1.892-2.882
+			c0.682-0.932,1.413-1.832,2.192-2.699c0.779-0.867,1.603-1.697,2.471-2.49c0.868-0.793,1.777-1.545,2.727-2.256
+			c0.949-0.711,1.935-1.378,2.956-2.001c1.021-0.623,2.073-1.199,3.156-1.727c1.083-0.529,2.192-1.007,3.326-1.437
+			c1.135-0.429,2.29-0.806,3.465-1.132c1.175-0.326,2.365-0.598,3.57-0.816c1.205-0.219,2.418-0.383,3.64-0.493
+			c1.222-0.11,2.447-0.165,3.675-0.165c1.228,0,2.453,0.055,3.675,0.165c1.222,0.11,2.435,0.274,3.64,0.493
+			c1.205,0.219,2.394,0.491,3.57,0.816c1.175,0.325,2.33,0.703,3.465,1.132c1.135,0.429,2.243,0.908,3.327,1.437
+			c1.083,0.529,2.135,1.104,3.156,1.727c1.021,0.623,2.006,1.29,2.956,2.001s1.858,1.463,2.727,2.256
+			c0.868,0.793,1.692,1.623,2.471,2.49c0.779,0.867,1.51,1.766,2.192,2.699c0.682,0.932,1.313,1.893,1.892,2.882
+			c0.579,0.989,1.103,2.001,1.573,3.037c0.47,1.036,0.883,2.09,1.24,3.163c0.357,1.073,0.655,2.159,0.894,3.259
+			c0.24,1.1,0.42,2.207,0.54,3.323C855.955,268.052,856.015,269.171,856.015,270.292z"/>
+		<path fill="#5555DD" d="M837.112,270.492c0,0.562-0.03,1.123-0.09,1.683c-0.06,0.56-0.15,1.115-0.27,1.667
+			c-0.12,0.552-0.269,1.096-0.447,1.635s-0.385,1.067-0.62,1.586c-0.235,0.52-0.497,1.027-0.786,1.523
+			c-0.289,0.496-0.604,0.978-0.945,1.445c-0.341,0.468-0.706,0.919-1.095,1.353c-0.389,0.435-0.801,0.851-1.235,1.249
+			s-0.888,0.775-1.363,1.132s-0.967,0.691-1.477,1.004s-1.036,0.601-1.577,0.866c-0.541,0.265-1.095,0.505-1.662,0.72
+			c-0.567,0.215-1.144,0.404-1.731,0.568c-0.587,0.163-1.182,0.3-1.784,0.409c-0.602,0.11-1.208,0.192-1.819,0.247
+			c-0.611,0.055-1.223,0.083-1.837,0.083s-1.226-0.028-1.837-0.083s-1.217-0.138-1.819-0.247c-0.602-0.11-1.197-0.246-1.784-0.409
+			c-0.587-0.163-1.164-0.353-1.731-0.568c-0.567-0.215-1.121-0.455-1.662-0.72c-0.541-0.265-1.067-0.554-1.577-0.866
+			c-0.51-0.312-1.003-0.647-1.477-1.004c-0.474-0.357-0.929-0.734-1.363-1.132c-0.434-0.398-0.846-0.814-1.235-1.248
+			c-0.389-0.435-0.755-0.886-1.095-1.353c-0.341-0.468-0.656-0.949-0.945-1.445c-0.289-0.496-0.551-1.004-0.786-1.523
+			c-0.235-0.52-0.441-1.048-0.62-1.586s-0.327-1.083-0.447-1.635c-0.12-0.552-0.21-1.107-0.27-1.667
+			c-0.06-0.56-0.09-1.121-0.09-1.683s0.03-1.123,0.09-1.683c0.06-0.56,0.15-1.115,0.27-1.667c0.12-0.551,0.269-1.096,0.447-1.634
+			s0.385-1.067,0.62-1.587s0.497-1.027,0.786-1.523c0.289-0.496,0.604-0.978,0.945-1.445c0.341-0.468,0.706-0.919,1.095-1.353
+			c0.389-0.435,0.801-0.851,1.235-1.249s0.888-0.775,1.363-1.132c0.474-0.357,0.967-0.691,1.477-1.004
+			c0.51-0.312,1.036-0.601,1.577-0.866s1.095-0.505,1.662-0.72s1.144-0.404,1.731-0.568s1.182-0.3,1.784-0.409
+			c0.602-0.11,1.208-0.192,1.819-0.247c0.611-0.055,1.223-0.083,1.837-0.083s1.226,0.028,1.837,0.083
+			c0.611,0.055,1.217,0.138,1.819,0.247c0.602,0.11,1.197,0.246,1.784,0.409c0.587,0.163,1.164,0.352,1.731,0.568
+			c0.567,0.215,1.121,0.455,1.662,0.72c0.541,0.265,1.067,0.554,1.577,0.866c0.51,0.312,1.003,0.647,1.477,1.004
+			s0.929,0.734,1.363,1.132s0.846,0.814,1.235,1.249c0.389,0.435,0.755,0.886,1.095,1.353c0.341,0.468,0.656,0.949,0.945,1.445
+			c0.289,0.496,0.551,1.004,0.786,1.523s0.441,1.048,0.62,1.587s0.327,1.083,0.447,1.634c0.12,0.552,0.21,1.107,0.27,1.667
+			C837.082,269.369,837.112,269.93,837.112,270.492z"/>
+		<path fill="none" stroke="#000000" stroke-width="1.5013" d="M819.427,210.492h-4.309h8.619H819.427v118.517h-4.309h8.619
+			 M733.587,269.75v-4.317v8.633V269.75h171.68v-4.317v8.633"/>
+	</g>
+	<g id="path-1-1-2" data-name="path-1-1">
+		<rect x="585.776" y="192.644" fill="none" width="294.79" height="217.096"/>
+		<path fill="#DD5555" d="M679.732,363.525c0,1.121-0.06,2.24-0.181,3.356c-0.12,1.116-0.3,2.224-0.54,3.323
+			s-0.538,2.186-0.894,3.259c-0.357,1.073-0.77,2.128-1.24,3.163c-0.47,1.036-0.994,2.048-1.573,3.037
+			c-0.579,0.989-1.21,1.949-1.892,2.882c-0.682,0.932-1.413,1.832-2.192,2.699c-0.779,0.867-1.603,1.697-2.471,2.489
+			c-0.868,0.793-1.777,1.545-2.727,2.256s-1.935,1.378-2.956,2.001c-1.021,0.623-2.073,1.199-3.156,1.727
+			c-1.083,0.529-2.192,1.007-3.327,1.436c-1.135,0.429-2.289,0.806-3.465,1.132c-1.175,0.325-2.365,0.598-3.57,0.816
+			c-1.204,0.219-2.418,0.383-3.64,0.493c-1.222,0.11-2.447,0.165-3.675,0.165c-1.228,0-2.453-0.055-3.675-0.165
+			c-1.222-0.11-2.436-0.274-3.64-0.493c-1.204-0.219-2.394-0.491-3.57-0.816c-1.175-0.326-2.33-0.703-3.465-1.132
+			c-1.135-0.429-2.243-0.908-3.326-1.437c-1.083-0.529-2.135-1.104-3.156-1.727s-2.006-1.29-2.956-2.001
+			c-0.949-0.711-1.858-1.463-2.727-2.256c-0.868-0.793-1.692-1.623-2.471-2.49c-0.779-0.867-1.51-1.766-2.192-2.699
+			c-0.682-0.932-1.313-1.893-1.892-2.882s-1.103-2.001-1.573-3.037c-0.47-1.036-0.883-2.09-1.24-3.163
+			c-0.356-1.073-0.655-2.159-0.894-3.259c-0.24-1.1-0.419-2.207-0.54-3.323c-0.12-1.116-0.181-2.234-0.181-3.356
+			c0-1.121,0.06-2.24,0.181-3.356c0.12-1.116,0.3-2.224,0.54-3.323c0.24-1.1,0.538-2.186,0.894-3.259
+			c0.356-1.073,0.77-2.127,1.24-3.163s0.994-2.048,1.573-3.037c0.579-0.989,1.209-1.949,1.892-2.882
+			c0.682-0.932,1.413-1.832,2.192-2.699c0.779-0.867,1.603-1.697,2.471-2.489c0.868-0.793,1.777-1.545,2.727-2.256
+			c0.949-0.711,1.935-1.379,2.956-2.001c1.021-0.623,2.073-1.199,3.156-1.727s2.192-1.007,3.326-1.436
+			c1.135-0.429,2.29-0.806,3.465-1.132c1.175-0.326,2.365-0.598,3.57-0.816c1.205-0.219,2.418-0.383,3.64-0.493
+			c1.222-0.11,2.447-0.165,3.675-0.165c1.228,0,2.453,0.055,3.675,0.165s2.435,0.274,3.64,0.493c1.204,0.219,2.394,0.491,3.57,0.816
+			c1.175,0.326,2.33,0.703,3.465,1.132c1.135,0.429,2.243,0.908,3.327,1.436c1.083,0.529,2.135,1.104,3.156,1.727
+			c1.021,0.623,2.006,1.29,2.956,2.001s1.858,1.463,2.727,2.256c0.868,0.793,1.692,1.623,2.471,2.489
+			c0.779,0.867,1.51,1.766,2.192,2.699c0.682,0.932,1.313,1.893,1.892,2.882c0.579,0.989,1.103,2.001,1.573,3.037
+			c0.47,1.036,0.883,2.09,1.24,3.163c0.356,1.073,0.654,2.159,0.894,3.259c0.24,1.1,0.42,2.207,0.54,3.323
+			C679.672,361.285,679.732,362.404,679.732,363.525z"/>
+		<path fill="#5555DD" d="M669.008,363.525c0,0.801-0.043,1.599-0.129,2.396c-0.086,0.797-0.214,1.588-0.385,2.373
+			c-0.171,0.785-0.384,1.561-0.638,2.327c-0.255,0.766-0.55,1.519-0.885,2.259c-0.336,0.74-0.71,1.463-1.123,2.169
+			c-0.413,0.706-0.864,1.392-1.351,2.058s-1.009,1.308-1.565,1.927c-0.556,0.619-1.144,1.211-1.764,1.777
+			c-0.62,0.566-1.269,1.103-1.947,1.611c-0.678,0.508-1.381,0.984-2.11,1.429c-0.729,0.445-1.48,0.856-2.254,1.233
+			c-0.773,0.377-1.565,0.719-2.375,1.026c-0.81,0.306-1.635,0.576-2.474,0.808c-0.839,0.232-1.689,0.427-2.549,0.583
+			c-0.86,0.156-1.726,0.273-2.599,0.352c-0.873,0.078-1.747,0.118-2.624,0.118c-0.877,0-1.752-0.039-2.624-0.118
+			c-0.873-0.078-1.739-0.196-2.599-0.352c-0.86-0.156-1.71-0.35-2.549-0.583c-0.839-0.232-1.664-0.502-2.474-0.808
+			c-0.81-0.306-1.602-0.648-2.375-1.026c-0.773-0.377-1.525-0.788-2.254-1.233c-0.729-0.445-1.432-0.921-2.11-1.429
+			c-0.678-0.508-1.327-1.045-1.947-1.611c-0.62-0.566-1.208-1.159-1.765-1.777c-0.556-0.619-1.078-1.261-1.565-1.927
+			c-0.487-0.666-0.937-1.352-1.351-2.058c-0.413-0.706-0.788-1.429-1.123-2.169c-0.336-0.74-0.631-1.492-0.885-2.259
+			c-0.255-0.766-0.467-1.542-0.638-2.327c-0.171-0.785-0.299-1.576-0.385-2.373c-0.086-0.797-0.129-1.595-0.129-2.396
+			c0-0.801,0.043-1.599,0.129-2.396c0.086-0.797,0.214-1.588,0.385-2.373c0.171-0.785,0.384-1.561,0.638-2.327
+			c0.255-0.766,0.55-1.519,0.885-2.259c0.336-0.74,0.71-1.462,1.123-2.169c0.413-0.706,0.863-1.392,1.351-2.058
+			c0.487-0.666,1.009-1.308,1.565-1.927c0.556-0.619,1.144-1.211,1.765-1.777c0.62-0.566,1.269-1.103,1.947-1.611
+			c0.678-0.508,1.381-0.984,2.11-1.429c0.729-0.445,1.48-0.856,2.254-1.233s1.565-0.719,2.375-1.026
+			c0.81-0.306,1.635-0.576,2.474-0.808c0.839-0.232,1.689-0.427,2.549-0.583c0.86-0.156,1.726-0.273,2.599-0.352
+			c0.873-0.078,1.747-0.118,2.624-0.118c0.877,0,1.752,0.039,2.624,0.118c0.873,0.079,1.739,0.196,2.599,0.352
+			c0.86,0.156,1.71,0.35,2.549,0.583c0.839,0.232,1.664,0.502,2.474,0.808c0.81,0.306,1.602,0.648,2.375,1.026
+			s1.524,0.789,2.254,1.233c0.729,0.445,1.433,0.921,2.11,1.429s1.327,1.045,1.947,1.611c0.62,0.566,1.208,1.159,1.764,1.777
+			c0.556,0.619,1.078,1.261,1.565,1.927c0.487,0.666,0.937,1.352,1.351,2.058c0.413,0.706,0.788,1.429,1.123,2.169
+			c0.336,0.74,0.631,1.493,0.885,2.259c0.255,0.766,0.467,1.542,0.638,2.327c0.171,0.785,0.3,1.576,0.385,2.373
+			C668.965,361.926,669.008,362.724,669.008,363.525z"/>
+		<path fill="none" stroke="#000000" stroke-width="1.5013" d="M643.108,323.851h-2.706h5.411H643.108v82.203h-2.706h5.411
+			 M589.214,364.952v-2.994v5.988V364.952h107.788v-2.994v5.988"/>
+	</g>
+</g>
+<style>
+#g-Impacts-of-global-warming-on-glaciers-and-sea-level-rise-Artboard_4-interactive-img rect, #g-Impacts-of-global-warming-on-glaciers-and-sea-level-rise-Artboard_4-interactive-img circle, #g-Impacts-of-global-warming-on-glaciers-and-sea-level-rise-Artboard_4-interactive-img path, #g-Impacts-of-global-warming-on-glaciers-and-sea-level-rise-Artboard_4-interactive-img line, #g-Impacts-of-global-warming-on-glaciers-and-sea-level-rise-Artboard_4-interactive-img polyline, #g-Impacts-of-global-warming-on-glaciers-and-sea-level-rise-Artboard_4-interactive-img polygon { vector-effect: non-scaling-stroke; }
+</style>
+</svg>
+
+		<div id="g-ai2-1" class="g-text-case-1 g-aiAbs g-aiPointText" style="top:18.3798%;margin-top:-41.6px;left:60.6919%;margin-left:-328px;width:656px;">
+			<p class="g-pstyle0">Impacts of Different Degrees of Global</p>
+			<p class="g-pstyle0">Warming by Year 2100</p>
+		</div>
+		<div id="g-ai2-2" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:25.7981%;margin-top:-18.6px;left:21.6589%;width:66px;">
+			<p class="g-pstyle1">200</p>
+		</div>
+		<div id="g-ai2-3" class="g-tag-number g-aiAbs g-aiPointText" style="top:29.3618%;margin-top:-19.5px;left:28.37%;width:339px;">
+			<p class="g-pstyle2"><span class="g-cstyle0">Red rings</span><span class="g-cstyle1"> </span>show number</p>
+		</div>
+		<div id="g-ai2-4" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:30.4464%;margin-top:-21.3px;left:39.2643%;width:30px;">
+			<p class="g-pstyle3"> </p>
+		</div>
+		<div id="g-ai2-5" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:30.4464%;margin-top:-21.3px;left:45.9725%;width:30px;">
+			<p class="g-pstyle3"> </p>
+		</div>
+		<div id="g-ai2-6" class="g-tag-number g-aiAbs g-aiPointText" style="top:34.4512%;margin-top:-19.5px;left:28.2836%;width:302px;">
+			<p class="g-pstyle4"><span class="g-cstyle2">of</span><span class="g-cstyle3"> </span>glaciers from 2015</p>
+		</div>
+		<div id="g-ai2-7" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:35.3982%;margin-top:-21.3px;left:30.4201%;width:30px;">
+			<p class="g-pstyle3"> </p>
+		</div>
+		<div id="g-ai2-8" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:35.3982%;margin-top:-21.3px;left:39.9578%;width:30px;">
+			<p class="g-pstyle5"> </p>
+		</div>
+		<div id="g-ai2-9" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:35.3982%;margin-top:-21.3px;left:45.7988%;width:30px;">
+			<p class="g-pstyle5"> </p>
+		</div>
+		<div id="g-ai2-10" class="g-text-case-1 g-aiAbs g-aiPointText" style="transform: matrix(0,-1,1,0,0,0);transform-origin: 50% 52.4105745124119%;-webkit-transform: matrix(0,-1,1,0,0,0);-webkit-transform-origin: 50% 52.4105745124119%;-ms-transform: matrix(0,-1,1,0,0,0);-ms-transform-origin: 50% 52.4105745124119%;top:49.3455%;margin-top:-20.7px;left:18.0196%;margin-left:-129px;width:258px;">
+			<p class="g-pstyle6">Sea level rise (mm)</p>
+		</div>
+		<div id="g-ai2-11" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:38.3153%;margin-top:-18.6px;left:21.6589%;width:66px;">
+			<p class="g-pstyle1">150</p>
+		</div>
+		<div id="g-ai2-12" class="g-tag-number g-aiAbs g-aiPointText" style="top:39.4031%;margin-top:-19.5px;left:28.37%;width:259px;">
+			<p class="g-pstyle2">to be<span class="g-cstyle3"> </span><span class="g-cstyle0">lost</span><span class="g-cstyle3"> </span>by 2100</p>
+		</div>
+		<div id="g-ai2-13" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:39.7999%;margin-top:-21.3px;left:30.4201%;width:30px;">
+			<p class="g-pstyle3"> </p>
+		</div>
+		<div id="g-ai2-14" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:39.7999%;margin-top:-21.3px;left:33.9853%;width:30px;">
+			<p class="g-pstyle3"> </p>
+		</div>
+		<div id="g-ai2-15" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:39.7999%;margin-top:-21.3px;left:38.6768%;width:30px;">
+			<p class="g-pstyle3"> </p>
+		</div>
+		<div id="g-ai2-16" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:39.7999%;margin-top:-21.3px;left:42.0965%;width:30px;">
+			<p class="g-pstyle3"> </p>
+		</div>
+		<div id="g-ai2-17" class="g-tag-circle-2 g-aiAbs g-aiPointText" style="top:44.5336%;margin-top:-15.8px;left:72.1654%;width:338px;">
+			<p class="g-pstyle7"><span class="g-cstyle0">83&plusmn;7% loss</span><span class="g-cstyle2">,</span><span class="g-cstyle0"> </span>sea levels: 150mm</p>
+		</div>
+		<div id="g-ai2-18" class="g-tag-circle-2 g-aiAbs g-aiPointText" style="top:48.6032%;margin-top:-21.3px;left:65.5541%;width:291px;">
+			<p class="g-pstyle8">4 &deg;C global warming</p>
+		</div>
+		<div id="g-ai2-19" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:50.695%;margin-top:-18.6px;left:21.6589%;width:66px;">
+			<p class="g-pstyle1">100</p>
+		</div>
+		<div id="g-ai2-20" class="g-tag-circle-1 g-aiAbs g-aiPointText" style="top:57.6009%;margin-top:-15.8px;left:59.0722%;width:471px;">
+			<p class="g-pstyle9">49&plusmn;9% glacier mass loss<span class="g-cstyle2">,</span> <span class="g-cstyle4">sea levels: 100mm</span></p>
+		</div>
+		<div id="g-ai2-21" class="g-tag-circle-1 g-aiAbs g-aiPointText" style="top:61.6706%;margin-top:-21.3px;left:50.9699%;width:316px;">
+			<p class="g-pstyle8">1.5 &deg;C global warming</p>
+		</div>
+		<div id="g-ai2-22" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:63.2121%;margin-top:-18.6px;left:22.2899%;width:51px;">
+			<p class="g-pstyle1">50</p>
+		</div>
+		<div id="g-ai2-23" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:69.8146%;margin-top:-18.6px;left:23.4505%;width:37px;">
+			<p class="g-pstyle1">0</p>
+		</div>
+		<div id="g-ai2-24" class="g-tag-number g-aiAbs g-aiPointText" style="top:76.2036%;margin-top:-18px;left:24.9455%;width:68px;">
+			<p class="g-pstyle10">2015</p>
+		</div>
+		<div id="g-ai2-25" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:79.0306%;margin-top:-18.6px;left:90.2526%;width:75px;">
+			<p class="g-pstyle1">60%</p>
+		</div>
+		<div id="g-ai2-26" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:79.0306%;margin-top:-18.6px;left:36.0598%;width:75px;">
+			<p class="g-pstyle1">10%</p>
+		</div>
+		<div id="g-ai2-27" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:79.0306%;margin-top:-18.6px;left:46.8195%;width:75px;">
+			<p class="g-pstyle1">20%</p>
+		</div>
+		<div id="g-ai2-28" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:79.0306%;margin-top:-18.6px;left:57.5796%;width:75px;">
+			<p class="g-pstyle1">30%</p>
+		</div>
+		<div id="g-ai2-29" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:79.0306%;margin-top:-18.6px;left:68.3392%;width:75px;">
+			<p class="g-pstyle1">40%</p>
+		</div>
+		<div id="g-ai2-30" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:79.0306%;margin-top:-18.6px;left:79.0991%;width:75px;">
+			<p class="g-pstyle1">50%</p>
+		</div>
+		<div id="g-ai2-31" class="g-text-case-1 g-aiAbs" style="top:83.4938%;left:32.2385%;width:57.6491%;">
+			<p class="g-pstyle11">Global glacier mass loss from 2015 to 2100</p>
+		</div>
+		<div id="g-ai2-32" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:95.8514%;margin-top:-10.8px;left:51.3587%;width:444px;">
+			<p class="g-pstyle12">Source: <a href="https://commons.wikimedia.org/w/index.php?curid=127526288">FAO Temperature Change</a> &bull; Graphic by Zhaozhou Dai</p>
+		</div>
+	</div>
+
+<!-- Custom HTML -->
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.3.0/d3.min.js"></script>
 <style>
 .hidden { visibility: hidden; }
 </style> -->
 
 </div>
 
-<!-- End ai2html - 2023-04-12 14:10 -->
-
+<!-- End ai2html - 2023-04-19 13:19 -->
 
 </div>
 </div>
@@ -1751,32 +2089,55 @@
 <div class="scrolly-overlay3">
 	<div class="step3" id="step3-zero">
 		<p>
-		  blank
+		 There are various projections for how much the planet will warm by 2100, depending on different scenarios and assumptions about future emissions.
+		</p>
+			
+		<p>
+		 These projections are typically based on climate models that simulate how the Earth's climate system will respond to different levels of greenhouse gas concentrations in the atmosphere.
 		</p>
 	  </div>
+	  
 	<div class="step3" id="step3-one">
 	  <p>
-		intruduction: nothing show up
+		The impacts of global warming will be far-reaching, affecting various aspects of the Earth's systems, including glaciers. Glaciers are large masses of ice that form on land and are a vital source of freshwater for many communities worldwide.
 	  </p>
 	</div>
+	
 	<div class="step3" id="step3-two">
 	  <p>
-		titles, x-axis and y-axis show up
+		If global warming continues at the current rate, the IPCC predicts that <span style="background-color: #5555DD; opacity: 90%;">most glaciers will shrink significantly or disappear entirely by the end of the century</span>. The loss of glaciers will profoundly impact freshwater availability, river flows, and agriculture in many regions.
 	  </p>
 	</div>
+	
 	<div class="step3" id="step3-three">
 	  <p>
-		2015, purple circle, and purple line
-		<br>
-		"1.5 °C global warming and 49±9% loss" show up
+		Based on the data presented in the graph on the right, there is projected to be a <span style="background-color: #DD5555; opacity: 90%;">30% decline in global glacier mass</span> from 2015 to 2045, accompanied by a <span style="background-color:#1ABC9C; opacity: 90%;">1.5°C increase in global warming temperature</span> and a <span style="background-color: #5DADE2; opacity: 90%;">rise in sea levels of around 100mm</span>.
 	</p>
 	</div>
+
 	<div class="step3" id="step3-four">
-	  <p>"4 °C global warming and 83±7% loss" show up</p>
+	  <p>
+		The data indicates that by 2055, the global warming temperature is expected to <span style="background-color:#1ABC9C; opacity: 90%;">increase by 4°C</span>. However, the more significant impacts will be a <span style="background-color: #DD5555; opacity: 90%;">45% loss in global glacier mass</span> and a <span style="background-color: #5DADE2; opacity: 90%;">rise in sea levels of around 150mm</span>.
+	  </p>
+	  
+	  <p>
+		These trends underscore the urgency of taking immediate action to mitigate greenhouse gas emissions and limit the effects of global warming.
+	  </p>
+
 	</div>
+
 	<div class="step3" id="step3-five">
-		<p>show together</p>
-	  </div>
+		<p>
+		  Glacier melting is already having significant impacts on ecosystems and communities around the world. <span style="background-color: #5555DD; opacity: 90%;">For example, the melting of the Greenland ice sheet is causing rising sea levels, leading to flooding in low-lying areas.</span> In addition, the melting of glaciers in the Himalayas is threatening the livelihoods of millions of people who depend on them for water and irrigation.
+		</p>
+	</div>
+
+	<div class="step3" id="step3-six">
+		<p>
+			In order to mitigate the impacts of global warming on glaciers and other systems, humans should <span style="background-color: #5555DD; opacity: 90%;">reduce greenhouse gas emissions and shift towards renewable energy sources</span>.
+		</p>
+	</div>
+
   </div>
   </section>
 
@@ -1785,8 +2146,11 @@
 	/* Scrollytelling code goes under here */
 	
 		d3.select("#path-1-1").classed("hidden", true)
+		d3.select("#path-1-1-2").classed("hidden", true) // purple circle
 	    d3.select("#path-1-2").classed("hidden", true)
+		d3.select("#path-1-2-2").classed("hidden", true)
 		d3.select("#path-1-3").classed("hidden", true)
+		d3.select("#path-1-3-2").classed("hidden", true)
 	    d3.select("#path-2-1").classed("hidden", true)
 	    d3.select("#path-2-2").classed("hidden", true)
 		d3.select("#path-2-3").classed("hidden", true)
@@ -1801,8 +2165,11 @@
 		d3.select("#step3-zero").on('stepin',function(e) {
 
 		d3.select("#path-1-1").classed("hidden", true)
+		d3.select("#path-1-1-2").classed("hidden", true)
 		d3.select("#path-1-2").classed("hidden", true)
+		d3.select("#path-1-2-2").classed("hidden", true)
 		d3.select("#path-1-3").classed("hidden", true)
+		d3.select("#path-1-3-2").classed("hidden", true)
 		d3.select("#path-2-1").classed("hidden", true)
 		d3.select("#path-2-2").classed("hidden", true)
 		d3.select("#path-2-3").classed("hidden", true)
@@ -1828,8 +2195,11 @@
 
 	  d3.select("#step3-two").on('stepin',function(e) {
 		d3.select("#path-1-1").classed("hidden", true)
+		d3.select("#path-1-1-2").classed("hidden", true) // first circle
 	    d3.select("#path-1-2").classed("hidden", true)
+		d3.select("#path-1-2-2").classed("hidden", true) // second circle
 		d3.select("#path-1-3").classed("hidden", false)
+		d3.select("#path-1-3-2").classed("hidden", false) // purple circle and line
 	    d3.select("#path-2-1").classed("hidden", true)
 	    d3.select("#path-2-2").classed("hidden", true)
 		d3.select("#path-2-3").classed("hidden", true)
@@ -1839,10 +2209,30 @@
 		d3.selectAll('.g-tag-circle-2').classed("hidden", true)
 	  })
 
-	  d3.select("#step3-three").on('stepin',function(e) {
+
+	    d3.select("#step3-three").on('stepin',function(e) {
 		d3.select("#path-1-1").classed("hidden", false)
+		d3.select("#path-1-1-2").classed("hidden", false) // first circle
 	    d3.select("#path-1-2").classed("hidden", true)
+		d3.select("#path-1-2-2").classed("hidden", true) // second circle
 		d3.select("#path-1-3").classed("hidden", false)
+		d3.select("#path-1-3-2").classed("hidden", false) // purple circle and line
+	    d3.select("#path-2-1").classed("hidden", false)
+	    d3.select("#path-2-2").classed("hidden", true)
+		d3.select("#path-2-3").classed("hidden", true)
+		d3.selectAll('.g-text-case-1').classed("hidden", false)
+		d3.selectAll('.g-tag-number').classed("hidden", false)
+		d3.selectAll('.g-tag-circle-1').classed("hidden", false)
+		d3.selectAll('.g-tag-circle-2').classed("hidden", true)
+	  })
+
+	  d3.select("#step3-three").on('stepin',function(e) {
+		d3.select("#path-1-1").classed("hidden", true)
+		d3.select("#path-1-1-2").classed("hidden", false) // first circle
+	    d3.select("#path-1-2").classed("hidden", true)
+		d3.select("#path-1-2-2").classed("hidden", true) // second circle
+		d3.select("#path-1-3").classed("hidden", false)
+		d3.select("#path-1-3-2").classed("hidden", false) // purple circle and line
 	    d3.select("#path-2-1").classed("hidden", false)
 	    d3.select("#path-2-2").classed("hidden", true)
 		d3.select("#path-2-3").classed("hidden", true)
@@ -1855,8 +2245,11 @@
 
 	  d3.select("#step3-four").on('stepin',function(e) {
 		d3.select("#path-1-1").classed("hidden", true)
+		d3.select("#path-1-1-2").classed("hidden", true) // firt circle
 	    d3.select("#path-1-2").classed("hidden", false)
+		d3.select("#path-1-2-2").classed("hidden", false) // second circle
 		d3.select("#path-1-3").classed("hidden", false)
+		d3.select("#path-1-3-2").classed("hidden", false) // purple circle and line
 	    d3.select("#path-2-1").classed("hidden", true)
 	    d3.select("#path-2-2").classed("hidden", false)
 		d3.select("#path-2-3").classed("hidden", true)
@@ -1868,8 +2261,11 @@
 
 	  d3.select("#step3-five").on('stepin',function(e) {
 		d3.select("#path-1-1").classed("hidden", false)
+		d3.select("#path-1-1-2").classed("hidden", false)
 	    d3.select("#path-1-2").classed("hidden", false)
+		d3.select("#path-1-2-2").classed("hidden", false)
 		d3.select("#path-1-3").classed("hidden", false)
+		d3.select("#path-1-3-2").classed("hidden", false)
 	    d3.select("#path-2-1").classed("hidden", false)
 	    d3.select("#path-2-2").classed("hidden", false)
 		d3.select("#path-2-3").classed("hidden", false)
@@ -1908,21 +2304,11 @@
 
 <!-- End ai2html - 2023-04-12 00:20 -->
 
+    <div class="paragraph">
 
-    <br>
-    <br>
-    <br>
-    <br>
-
-    <div class="paragraph-2">
-   
-      <p>
-        With continued global cooperation and a commitment to bold action, we can work towards a more sustainable future and protect the fragile ecosystems and wildlife that depend on it.
-      </p>
-
-	  <p>
-		Sea level change can have significant impacts on coastal regions, as rising seas can cause flooding, erosion, and damage to infrastructure. It can also affect marine ecosystems and the livelihoods of people who rely on the ocean for food and resources.
-	  </p>
+	<p>
+		If the planet warms by 1.5 degrees Celsius above preindustrial levels, as targeted by the Paris Agreement, the impacts will still be significant but relatively manageable compared to more severe levels of warming. However, if emissions continue to rise and the planet warms by 2 degrees Celsius, the impacts will be much more severe, with potentially catastrophic consequences for human societies and ecosystems.
+	</p>
 
      <p>
 		Scientists and researchers continue to study sea level change and its impacts in order to better understand and mitigate its effects.
@@ -1941,11 +2327,19 @@
 	  </p>
 
 	  <p>
-		In order to address these challenges, we must take action to reduce greenhouse gas emissions and transition to a more sustainable economy. This will require significant changes in our energy systems, transportation, and land use practices. We must also take steps to adapt to the impacts of climate change that are already happening, such as building seawalls and relocating vulnerable communities.
+		“In order to address these challenges, we must take action to reduce greenhouse gas emissions and transition to a more sustainable economy, and this will require significant changes in our energy systems, transportation, and land use practices,” Begert said.
+	  </p>
+
+	  <p>
+		She said people must also take steps to adapt to the impacts of climate change that are already happening, such as building seawalls and relocating vulnerable communities.
 	  </p>
     
 	  <p>
-		In conclusion, rising temperatures and sea levels are two of climate change's most visible and concerning consequences. The evidence is clear that human activities cause these trends, and urgent action is needed to address them. By reducing our greenhouse gas emissions and adapting to the impacts of climate change, we can protect our planet and ensure a more sustainable future for generations to come.
+		“Rising temperatures and sea levels are two of climate change's most visible and concerning consequence,” Begert said. “The evidence is clear that human activities cause these trends, and urgent action is needed to address them.”
+	  </p>
+
+	  <p>
+		She said by reducing our greenhouse gas emissions and adapting to the impacts of climate change, humans should protect their planet and ensure a more sustainable future for generations to come.
 	  </p>
 	  
     </div>
@@ -1955,10 +2349,10 @@
     <br>
     <br>
     
-    <div class="paragraph-2">
+    <div class="byline">
    
       <p>
-        © 2023 By Zhaozhou Dai
+        © 2023 By <a href="https://www.jovidai.com/" target="new">Zhaozhou Dai</a> for <a href="https://camd.northeastern.edu/research-scholarship-creative-practice/co-laboratory-for-data-impact/">The Co-Laboratory for Data Impact</a> <b>|</b> <a href="https://www.datajconf.com/">Computation + Journalism Symposium</a>
       </p>
 
 	  <br>

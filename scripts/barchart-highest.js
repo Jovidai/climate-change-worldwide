@@ -7,10 +7,11 @@ height = 400;
 var barChartSvg = d3.select("#barchart-highest")
 .attr("width", width + margin.left + margin.right)
 .attr("height", height + margin.top + margin.bottom)
+// .attr('viewbox', `0 0 ${width + margin.left + margin.right} ${height + margin.top + margin.bottom}`)
 .append("g")
 .attr("transform",
       "translate(" + margin.left + "," + margin.top + ")")
-.style("stroke", "#EEECE7");
+.style("stroke", "black");
 
 // Parse the Data
 d3.csv("./data/climate-data-1.csv")
@@ -37,27 +38,27 @@ barChartSvg.append("text")
     .attr("x", 500)
     .attr("y", -60)
     .text("Top Ten countries that Have Highest Temperature Change")
-    .style("font-family","'DM Sans', sans-serif")
-    .style("font-size", "25px")
-    .style("fill", "#EEECE7");
+    .style("font-family","'times new roman',times,serif")
+    .style("font-size", "28px")
+    .style("fill", "black");
 
 barChartSvg.append("text")
     .attr("text-anchor", "middle")
     .attr("x", 500)
     .attr("y", -20)
     .text("in the Last Decades")
-    .style("font-family","'DM Sans', sans-serif")
-    .style("font-size", "25px")
-    .style("fill", "#EEECE7");
+    .style("font-family","'times new roman',times,serif")
+    .style("font-size", "28px")
+    .style("fill", "black");
 
 barChartSvg.append("text")
     .attr("text-anchor", "middle")
-    .attr("x", 300)
+    .attr("x", 280)
     .attr("y", 480)
     .text("Source: Food and Agriculture Organization of the United Nations • Graphic by Zhaozhou Dai")
     .style("font-size", "15px")
-    .style("font-family","'DM Sans', sans-serif")
-    .style("fill", "#EEECE7");
+    .style("font-family","'times new roman',times,serif")
+    .style("fill", "black");
 
 
 // barChartSvg.append("text")
@@ -85,7 +86,7 @@ barChartSvg.selectAll("rect")
   .append("rect")
   .attr("x", function(d) { return x(d.country_names); })
   .attr("width", x.bandwidth())
-  .attr("fill", "#007cba")
+  .attr("fill", "#1ABC9C")
   // if no bar at the beginning :
   .attr("height", function(d) { return height - y(0); }) 
   .attr("y", function(d) { return y(0);})
@@ -100,7 +101,7 @@ barChartSvg.selectAll("rect")
 
 function mousemove(event, d) {
 d3.select(this)
-.attr("fill","#85C1E9")
+.attr("fill","#27AE60")
 .attr("stroke-width", "1px")
 .attr("fill-opacity", "1");
 tooltip.style("display", "block")
@@ -118,7 +119,7 @@ tooltip.style("display", "block")
 
 function mouseover() {
   d3.select(this)
-    .attr("fill","#85C1E9")
+    .attr("fill","#27AE60")
     .attr("stroke-width", "1px")
     .attr("fill-opacity", "1");
   tooltip.style("opacity", 1)
@@ -127,7 +128,7 @@ function mouseover() {
 
 function mouseout() {
   d3.select(this)
-    .attr("fill", "#007cba")
+    .attr("fill", "#1ABC9C")
     .attr("stroke-width", ".3")
     .attr("fill-opacity", "1");
   tooltip.style("display", "none");
