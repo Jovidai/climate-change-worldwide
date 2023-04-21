@@ -8,7 +8,7 @@ html, body {
 }
 
 #background-video { /*https://blog.hubspot.com/website/video-background-css*/
-  width: 1500px;
+  width: 100%;
   height: 700px;
   object-fit: cover;
   position: static;
