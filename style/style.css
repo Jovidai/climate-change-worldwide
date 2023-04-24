@@ -1,5 +1,6 @@
 html, body {
     margin: 0;
+    width: 100%;
     padding: 0; 
     position: relative;
     /* color: #2E2925; */
