@@ -207,6 +207,7 @@ width: 1050px;
 #scrolly {
   position: relative;
   background-color: #f3f3f3;
+  transition: none;
 }
 
 /* This is for side-by-side scrollytelling with D3.js */
